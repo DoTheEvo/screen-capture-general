@@ -1,0 +1,23 @@
+<schemalist gettext-domain="@GETTEXT_PACKAGE@">
+  <schema id="org.gnome.byzanz.applet">
+
+    <key name="save-filename" type="s">
+      <default>''</default>
+      <_summary>Save filename</_summary>
+      <_description>URI for the filename Byzanz will suggest when starting a recording.</_description>
+    </key>
+
+    <key name="method" type="s">
+      <default>'screen'</default>
+      <_summary>Recording method</_summary>
+      <_description>Use this method as the default method for recording. Must be one of "screen" for recording the whole screen, "area" for selecting an area or "window" to select a window.</_description>
+    </key>
+
+    <key name="record-audio" type="b">
+      <default>true</default>
+      <_summary>Record audio</_summary>
+      <_description>If set, Byzanz will record audio from the default audio device if the format supports it. This allows narrating along with the recording.</_description>
+    </key>
+
+  </schema>
+</schemalist>

@@ -1,0 +1,64 @@
+0.2.2
+=====
+ Features:
+ - Updated translations
+ Bugfixes:
+ - Record the cursor properly on 64bit machines 
+
+0.2.1
+=====
+ Features:
+ - Allow recording audio with Theora video.
+ - Add an internal debugging format
+ - Cache recording on disk. Slow encoders will not consume all memory anymore.
+
+0.2.0
+=====
+ Features:
+ - Rework the user interface
+ - Support saving to Ogg Theora and Flash Screen video formats
+ - Update to latest technologies (Cairo instead of GDK, gvfs instead of 
+   gnome-vfs)
+ Bugfixes:
+ - Work on 16bpp and 8bpp displays (anything that's supported by Cairo)
+ - Properly be translucent on panels
+
+0.1.1
+=====
+ Forgot to update NEWS
+
+0.1.0
+=====
+ Forgot to update NEWS
+
+0.0.4
+=====
+ Features:
+ - optionally record the mouse cursor, too
+ - revamp the applet, so it looks more like what I want
+ - add "select window to record" option
+ - store preferences in GConf
+
+0.0.3
+=====
+ Features:
+ - save with gnome-vfs. Solves an icky bug if the place you save to and /tmp 
+   aren't on the same partition, too.
+ 
+0.0.2
+=====
+ Features:
+ - Add file caching if too much happens on screen. This allows recording almost
+   everything without losing frames.
+ - More work to make the applet UI not block.
+ - Set unchanged pixels to transparent. This should imrpvoe the compression 
+   algorithm and reduce file sizes somewhat.
+ Bugfixes:
+ - Make it actually work on little endian systems (no more red)
+ - Composite extension no longer required. So it should work on all desktops
+   from this millenium
+ - And as always: Lots of small bugs
+
+0.0.1
+=====
+ - initial release

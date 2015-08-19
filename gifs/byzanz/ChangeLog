@@ -1,0 +1,786 @@
+2008-11-11  Wadim Dziedzic  <wdziedzic@aviary.pl>
+
+	* configure.ac: Added "pl" to ALL_LIGUAS
+
+2008-11-09  Kenneth Nielsen  <k.nielsen81@gmail.com>
+
+	* configure.ac: Added "da" to ALL_LINGUAS
+
+2008-11-07  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* gifenc/quantize.c: Comment out a function to make it build (uses
+	-Werror)
+
+2008-10-08  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* configure.ac: Added 'nb' to ALL_LINGUAS.
+
+2008-07-11  Nickolay V. Shmyrev  <nshmyrev@yandex.ru>
+
+	* configure.ac:
+	
+	Added "ru" to ALL_LIGNUAS.
+	
+	* src/record.c (main):
+	
+	Set the translation domain for the option context.
+
+2008-06-06   Clytie Siddall <clytie@riverland.net.au>
+
+	* configure.ac: Added "vi" to ALL_LINGUAS.
+
+2008-05-01  Petr Kovar  <pknbe@volny.cz>
+
+	* configure.ac: Added cs and hu to ALL_LINGUAS.
+
+2008-03-24  Kostas Papadimas <pkst@gnome.org>
+
+	* configure.in: Added 'el' to ALL_LINGUAS.
+	* MAINTAINERS: Fixed file format to pass pre-commit hook in SVN.
+
+2007-10-14  Yannig Marchegay  <yannig@marchegay.org>
+
+	* configure.in: Added 'oc' to ALL_LINGUAS.
+
+2007-08-15  Ilkka Tuohela <hile@iki.fi>
+
+	* configure.ac: Added 'fi' to ALL_LINGUAS
+
+2007-07-23  Satoru SATOH <ss@gnome.gr.jp>
+
+	* configure.ac: Added 'ja' to ALL_LINGUAS
+
+2007-06-19  Jordi Mas <jmas@softcatala.org>
+
+	* configure.ac: Added 'ca' to ALL_LINGUAS
+
+2007-04-29  David Lodge <dave@cirt.net>
+
+	* configure.ac: Added 'en_GB' to ALL_LINGUAS
+
+2007-04-15  Daniel Nylander <po@danielnylander.se>
+
+	* configure.ac: Added 'sv' to ALL_LINGUAS
+
+2007-04-04  Pema Geyleg  <pema.geyleg@gmail.com>
+
+	* configure.in: Added 'dz' to ALL_LINGUAS
+
+2006-09-17  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* gifenc/quantize.c: (gifenc_palette_get_simple):
+	  fix 64bit casting bug
+
+2006-05-12  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* NEWS:
+	  update
+	* configure.ac:
+	  0.1.1
+
+2006-05-12  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzapplet.c: (byzanz_applet_start_recording):
+	* src/record.c: (main):
+	  fix typos.
+	* po/fr.po:
+	* po/tr.po:
+	  update po files
+	* po/de.po:
+	  update po files and translate
+
+2006-05-12  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	patch by Richard Ferguson <gnome at fergusnet dot com>
+
+	* data/byzanz-record-screen.png:
+	  remove because of new name
+	* data/byzanz-record-area.png:
+	* data/byzanz-record-desktop.png:
+	* data/byzanz-record-window.png:
+	  add nicer icons
+	* data/Makefile.am:
+	* data/byzanz-record-area.svg:
+	* data/byzanz-record-desktop.svg:
+	* data/byzanz-record-window.svg:
+	  and add those icons as SVG
+	* po/de.po:
+	* po/es.po:
+	* po/tr.po:
+	  update translations for 
+	* src/ByzanzApplet.server.in.in:
+	  use byzanz-record-desktop as image until someone does a cool one
+	* src/byzanzapplet.c: (byzanz_applet_fill):
+	* src/byzanzselect.c:
+	  typo fixes (mostly upper/lower case)
+	* src/Makefile.am:
+	  dist the man file
+
+2006-03-22  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzrecorder.c: (byzanz_recorder_run_encoder):
+	  attempt to silence a warning from gcc 4.1
+
+2006-03-22  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzrecorder.c: (byzanz_recorder_new),
+	(byzanz_recorder_new_fd):
+	  fail if window depth isn't 24 or 32
+	* src/byzanzapplet.c: (byzanz_applet_start_recording):
+	* src/record.c: (main):
+	  error out nicely if window depth isn't 24 or 32
+	(thx to Jacob Kroon for using these ancient configuration)
+
+2006-03-22  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	  fix typo in AC_MSG_ERROR (spotted by Josh Triplett)
+	* src/Makefile.am:
+	* src/byzanz-record.1:
+	  add man page for byzanz-record (Josh Triplett again)
+
+2006-03-22  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	* po/tr.po:
+	  add Turkish translation from Bulent Sener <bsener inonu edu tr>
+
+2006-02-12  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzapplet.c: (byzanz_applet_start_recording):
+	  silence the compiler again
+
+2006-02-12  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	* po/fr.po:
+	  add French translation
+	* po/es.po:
+	  update from Antonio Ognio
+
+2006-02-12  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* gifenc/gifenc.c: (gifenc_write), (gifenc_write_header):
+	  remove gifenc_write_string in favor of gifenc_write
+	* src/byzanzrecorder.c: (stored_image_store),
+	(byzanz_recorder_quantize), (byzanz_recorder_encode_get_data),
+	(render_cursor_to_image):
+	  no void * arithmetic
+
+2006-02-12  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* macros/as-compiler-flag.m4:
+	  make this not barf when -Wstrict-prototypes is set, so behdad gets
+	  -Werror again
+	* src/byzanzapplet.c: (byzanz_applet_show_error),
+	(byzanz_applet_method_selected_cb):
+	* src/byzanzselect.c:
+	  fix warnings for behdads warning flags.
+
+2006-01-28  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzapplet.c: (byzanz_applet_start_recording):
+	  if creating the recorder fails, make sure to not start recording -
+	  silently failing is not much better, but at least an improvement
+	* configure.ac:
+	  0.1.0.1
+
+==================== 0.1.0 ====================
+
+2006-01-26  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* Makefile.am:
+	  include MAINTAINERS
+	* NEWS:
+	  clean up
+	* README:
+	  put something in it
+	* po/de.po:
+	* po/es.po:
+	  update
+	* configure.ac:
+	  0.1.0
+
+2006-01-26  Benjamin Otte  <otte@gnome.org>
+
+	* src/screenshot-utils.c: (get_atom_property):
+	  I'm too stupid to fix gcc warnings
+
+2006-01-26  Benjamin Otte  <otte@gnome.org>
+
+	* src/byzanzrecorder.c: (render_cursor_to_image):
+	  fix wrong alpha index in LE cursor rendering
+
+2006-01-25  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/record.c:
+	  update a string to be the same as another one with the same meaning
+	* po/de.po:
+	  update
+
+2006-01-25  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzrecorder.c: (render_cursor_to_image),
+	(byzanz_recorder_queue_image), (byzanz_recorder_timeout_cb):
+	  handle the mouse correctly, when the area doesn't start at (0,0)
+	* src/byzanzselect.c: (byzanz_select_window):
+	  record root window area corresponding to the selected window, not
+	  the selected window.
+	* src/paneldropdown.c: (panel_dropdown_destroy),
+	(panel_dropdown_class_init), (panel_dropdown_init),
+	(panel_dropdown_set_popup_widget):
+	  Destroy the window correctly. 
+
+2006-01-23  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanz.schemas.in:
+	* src/byzanzapplet.c: (byzanz_applet_start_recording),
+	(record_cursor_toggled_cb), (byzanz_applet_fill):
+	  add option to select if the mouse cursor should be recorded
+
+2006-01-23  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* NEWS:
+	  update a bit
+
+2006-01-23  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzrecorder.c: (recorder_job_new),
+	(byzanz_recorder_add_image), (stored_image_store),
+	(render_cursor_to_image), (cursor_hash), (cursor_equal),
+	(byzanz_recorder_queue_image), (byzanz_recorder_timeout_cb),
+	(byzanz_recorder_idle_cb), (byzanz_recorder_filter_events),
+	(byzanz_recorder_new), (byzanz_recorder_new_fd),
+	(byzanz_recorder_prepare), (byzanz_recorder_start),
+	(byzanz_recorder_stop), (byzanz_recorder_destroy):
+	* src/byzanzrecorder.h:
+	  add ability to record the mouse. Probably way buggy. At least it
+	  makes the recordings huge.
+	* src/byzanzapplet.c: (byzanz_applet_start_recording):
+	* src/record.c: (main):
+	  use the new funky mouse recording feature (applet uses it
+	  uncoditionally)
+
+2006-01-19  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* po/de.po:
+	  typo
+	* src/byzanzapplet.c: (byzanz_applet_fill):
+	  actually call bindtextdomain (d'oh)
+
+2006-01-19  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/.cvsignore:
+	  don't list .schemas file
+	* src/Makefile.am:
+	  remove accidently duplicated line
+	* src/byzanzapplet.c: (byzanz_applet_fill):
+	* src/byzanzselect.c: (byzanz_select_method_get_mnemonic):
+	* src/byzanzselect.h:
+	  do not display mnemonics in tooltips
+	* po/de.po:
+	  update
+
+2006-01-19  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzapplet.c: (byzanz_applet_update),
+	(byzanz_applet_start_recording),
+	(byzanz_applet_set_default_method),
+	(byzanz_applet_method_selected_cb), (byzanz_applet_fill):
+	  get rid of the label, it wastes space most of the time.
+	  add tooltips
+	* src/Makefile.am:
+	* src/panelstuffer.h:
+	* src/panelstuffer.c:
+	  remove, they're not needed anymore
+
+2006-01-19  Benjamin Otte  <otte@gnome.org>
+
+	* src/screenshot-utils.c: (get_atom_property):
+	  no more type-punned pointers breaking strict aliasing rules rules!
+
+2006-01-19  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	* po/POTFILES.in:
+	* po/de.po:
+	* src/Makefile.am:
+	* src/byzanz.schemas.in:
+	* src/byzanzapplet.c: (pending_recording_launch),
+	(byzanz_applet_stop_recording), (byzanz_applet_set_default_method),
+	(byzanz_applet_method_selected_cb), (byzanz_applet_fill):
+	* src/byzanzselect.c: (byzanz_select_method_get_name),
+	(byzanz_select_method_lookup):
+	* src/byzanzselect.h:
+	  add support for GConf and store the save directory and selected
+	  recording method in there. Does not do notifications (yet?).
+
+2006-01-18  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzapplet.c: (byzanz_applet_start_recording):
+	  set tmp_file so the applet thinks we're recording already
+	* src/byzanzrecorder.c: (byzanz_recorder_new_fd),
+	(byzanz_recorder_destroy):
+	  ref/unref the GdkWindow
+	* src/byzanzselect.c: (byzanz_select_area), (byzanz_select_screen),
+	(select_window_button_pressed_cb), (byzanz_select_window):
+	  document byzanz_select_method_select and make sure all methods ref
+	  the window before returning
+
+2006-01-18  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/Makefile.am:
+	* src/byzanzselect.c: (select_window_button_pressed_cb),
+	(byzanz_select_window):
+	  add possibility to record a selected window.
+	* data/Makefile.am:
+	* data/byzanz-record-window.png:
+	  and add icon for it
+	* src/screenshot-utils.c: 
+	* src/screenshot-utils.h:
+	  partial copy from gnome-screenshot to find the correct window to
+	  record
+
+2006-01-17  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	* src/Makefile.am:
+	* src/byzanzapplet.c: (byzanz_about_cb), (byzanz_applet_fill):
+	* src/byzanzapplet.xml:
+	  add a sexy about box
+	* po/POTFILES.in:
+	* po/de.po:
+	  update translations for sexy about box
+
+2006-01-17  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzselect.c: (quit_cb), (byzanz_select_area):
+	  don't just sleep 1 sec, but run a main loop during that time
+
+2006-01-17  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* Makefile.am:
+	* configure.ac:
+	* data/.cvsignore:
+	* data/Makefile.am:
+	* data/byzanz-record-area.png:
+	* data/byzanz-record-screen.png:
+	  add (rather stupid) icons for the different recording options
+	* src/byzanzselect.c:
+	  use them
+
+2006-01-16  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	  add lots of warnings
+	* gifenc/gifenc.c: (gifenc_open), (gifenc_dither_rgb),
+	(gifenc_dither_rgb_with_full_image):
+	* gifenc/quantize.c: (color_to_index), (gifenc_octree_add_color):
+	* src/byzanzrecorder.c: (compute_image_size), (recorder_job_new),
+	(stored_image_store):
+	* src/panelstuffer.c: (panel_stuffer_find), (panel_stuffer_forall),
+	(panel_stuffer_size_request):
+	  fix all their errors
+
+2006-01-16  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzapplet.c: (byzanz_applet_fill):
+	  set panel that watches this applet
+	* src/paneldropdown.c: (panel_dropdown_position_menu),
+	(panel_dropdown_add), (panel_dropdown_remove),
+	(panel_dropdown_size_allocate), (panel_dropdown_set_orientation),
+	(panel_dropdown_parent_set), (panel_dropdown_class_init),
+	(panel_dropdown_init), (panel_dropdown_deactivate_menu_cb),
+	(panel_dropdown_set_popup_widget),
+	(panel_dropdown_change_orient_cb), (panel_dropdown_set_applet):
+	* src/paneldropdown.h:
+	  add code to monitor size changes and adjust layout based on them.
+	  Goal is (as always) to occupied space on the panel
+	* src/paneltogglebutton.c: (panel_toggle_button_button_press),
+	(panel_toggle_button_button_release):
+	  don't react to mouse button 2 either (allow dragging the applet)
+
+2006-01-16  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/paneltogglebutton.c: 
+	* src/paneltogglebutton.h:
+	  add toggle button subclass that fits better onto a panel
+
+2006-01-16  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzselect.c: (byzanz_select_screen),
+	(byzanz_select_method_get_icon_name):
+	* src/byzanzselect.h:
+	  add method for recodring the whole screen
+	  supply a default icon name
+	* src/Makefile.am:
+	* src/paneldropdown.c: 
+	* src/paneldropdown.h:
+	  add a dropdown widget that drops down a menu when you click on it.
+	  Supposed to be similar in spirit to GtkToolMenuItem.
+	* src/byzanzapplet.c: (pending_recording_destroy),
+	(byzanz_applet_update), (byzanz_applet_start_recording),
+	(button_clicked_cb), (byzanz_applet_set_default_method),
+	(byzanz_applet_method_selected_cb), (byzanz_applet_fill):
+	  use the new widget and allow selecting a preferred recording method.
+
+2006-01-13  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/record.c:
+	  Update --help text to show default values for delay and duration so
+	  people know that it can't be run indefinitely
+
+2006-01-13  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* .cvsignore:
+	* gifenc/.cvsignore:
+	* macros/.cvsignore:
+	* po/.cvsignore:
+	* src/.cvsignore:
+	  update
+
+2006-01-13  Benjamin Otte  <otte@gnome.org>
+
+	* README:
+	  put important quote in there
+
+2006-01-13  Benjamin Otte  <otte@gnome.org>
+
+	* configure.ac:
+	  0.0.3.1
+
+==================== 0.0.3 ====================
+
+2006-01-13  Benjamin Otte  <otte@gnome.org>
+
+	* po/de.po:
+	  update
+	* NEWS:
+	* configure.ac:
+	  0.0.3
+
+2006-01-13  Benjamin Otte  <otte@gnome.org>
+
+	* configure.ac:
+	  0.0.2.1
+
+2006-01-12  Benjamin Otte  <otte@gnome.org>
+
+	* src/byzanzapplet.c:
+	  Use gnome-vfs to save the file. Fixes /tmp being on a different
+	  partition issue everyone seems to have. Also allows you to save
+	  directly to all gnome-vfs accounts.
+	  Progress information is missing though.
+
+2006-01-12  Benjamin Otte  <otte@gnome.org>
+
+	* po/de.po:
+	* src/byzanzapplet.c: (byzanz_applet_stop_recording):
+	  tweak string displayed and translate it.
+
+==================== 0.0.2 ====================
+
+2006-01-12  Benjamin Otte  <otte@gnome.org>
+
+	* src/byzanzapplet.c: (byzanz_applet_show_error),
+	(byzanz_applet_stop_recording):
+	  show an error if the file can not be properly renamed.
+	  First attempt at error displays. (And yes, it's stil 0.0.2 in here)
+
+2006-01-12  Benjamin Otte  <otte@gnome.org>
+
+	* NEWS:
+	  update (create?)
+	* configure.ac:
+	  0.0.2
+
+2006-01-12  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* gifenc/gifenc.c: (gifenc_dither_rgb_with_full_image):
+	* gifenc/gifenc.h:
+	  remove old test code that wouldn't compile anymore. Comment out a
+	  print debugging statement.  
+	* gifenc/gifenc.c: (gifenc_dither_rgb),
+	(gifenc_dither_rgb_with_full_image):
+	* gifenc/gifenc.h:
+	* gifenc/quantize.c: (gifenc_palette_simple_lookup),
+	(gifenc_octree_add_one), (gifenc_octree_add_color),
+	(gifenc_octree_lookup), (gifenc_quantize_image):
+	  make pixel values guint32 instead of guint. Should help with 64bit
+	  CPUs in theor, but I don't have one.
+
+2006-01-12  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* gifenc/gifenc.c: (gifenc_write), (gifenc_write_string),
+	(gifenc_write_uint16), (gifenc_write_byte),
+	(gifenc_write_color_table), (gifenc_buffer_write),
+	(gifenc_write_loop):
+	* gifenc/gifenc.h:
+	* gifenc/quantize.c: (gifenc_palette_get_color),
+	(gifenc_palette_get_simple), (gifenc_octree_finalize),
+	(gifenc_quantize_image):
+	  add a colors array to the palette struct which contains
+	  all the colors. This allows easy color lookup by index.
+	  It also makes writing the palette to the GIF the same for
+	  all palettes.
+	* src/byzanzselect.c: (realize_cb):
+	  set transparent background
+
+2006-01-11  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* gifenc/gifenc.c: (gifenc_dither_pixbuf), (gifenc_dither_rgb),
+	(gifenc_dither_rgb_with_full_image):
+	* gifenc/gifenc.h:
+	  - add gifenc_dither_rgb_with_full_image
+	  - remove gifenc_dither_rgb
+	  - rename gifenc_dither_rgb_into to gifenc_dither_rgb
+	* src/byzanzrecorder.c: (recorder_job_new),
+	(byzanz_recorder_dither_region), (byzanz_recorder_add_image),
+	(stored_image_process), (byzanz_recorder_run_encoder),
+	(byzanz_recorder_filter_damage_event):
+	  use gifenc_dither_rgb_with_full_image in the hope that this
+	  produces smaller files
+
+2006-01-11  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzrecorder.c: (recorder_job_new),
+	(byzanz_recorder_filter_damage_event), (byzanz_recorder_new_fd),
+	(byzanz_recorder_destroy):
+	  reordering of XDamage interfacing to only subtract damage when
+	  reading out the window contents
+
+2006-01-11  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* gifenc/quantize.c: (gifenc_octree_add_one),
+	(gifenc_octree_add_color), (gifenc_quantize_image):
+	  change quantization to have evenly spaced base colors
+	* src/byzanzrecorder.c: (byzanz_recorder_run_encoder),
+	(byzanz_recorder_new_fd), (byzanz_recorder_is_active):
+	* src/byzanzrecorder.h:
+	  add function to query if the recorder is still encoding after having
+	  stopped.
+	* src/byzanzapplet.c: (byzanz_applet_destroy_recorder),
+	(byzanz_applet_is_recording), (byzanz_applet_ensure_text),
+	(byzanz_applet_update), (byzanz_applet_start_recording),
+	(byzanz_applet_stop_recording), (destroy_applet):
+	  change so that encoding can happen in the background even after the
+	  recording has been saved already.
+	  Also update the code structurre to better deal with UI updates.
+
+2006-01-10  Benjamin Otte  <otte@gnome.org>
+
+	* src/byzanzrecorder.c: (byzanz_recorder_queue_image),
+	(byzanz_recorder_filter_damage_event), (byzanz_recorder_new_fd),
+	(byzanz_recorder_destroy):
+	  subtract damaged regions the moment we get the event that they're
+	  damaged. Might increase traffic but otherwise we'd lose areas we'd
+	  need to refetch
+
+2006-01-10  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* gifenc/gifenc.h:
+	* gifenc/quantize.c: (gifenc_palette_get_num_colors):
+	  add function to get number of colors
+	* gifenc/gifenc.c: (gifenc_write_lsd), (gifenc_write_color_table),
+	(gifenc_write_image_description), (gifenc_write_image_data):
+	  use gifenc_palette_get_num_colors instead of (often wrongly)
+	  calculating the number of colors itself
+
+2006-01-10  Benjamin Otte  <otte@gnome.org>
+
+	* src/byzanzrecorder.c: (recorder_job_new):
+	  That should have been g_async_queue_push_unlocked from the start.
+	  Wonder why that didn't matter on PPC.
+
+2006-01-10  Benjamin Otte  <otte@gnome.org>
+
+	* gifenc/quantize.c: (gifenc_octree_write):
+	  fix writeout on little endian.
+	* src/byzanzselect.c: (expose_cb), (button_pressed_cb),
+	(byzanz_select_area):
+	  remove leftover g_print stuff and really work without Composite
+
+2006-01-10  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* macros/Makefile.am:
+	  this file survived quite a while without being added to CVS
+
+2006-01-10  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzrecorder.c: (recorder_job_new):
+	  push the NEED_FILE_CACHE event to the front, so the encoding thread
+	  starts putting stuff into the file NOW
+	* src/byzanzselect.c: (expose_cb), (realize_cb),
+	(byzanz_select_area):
+	  add experimental code for non-composite X
+
+2006-01-10  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	* po/es.po:
+	  add Spanish translation by Antonio Ognio
+
+2006-01-10  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	  version 0.0.1.1
+	* src/Makefile.am:
+	  rename the binary from "record" to "byzanz-record"
+	* src/byzanzapplet.c: (byzanz_applet_stop_recording):
+	  set default button
+	* src/byzanzrecorder.c: (recorder_job_new),
+	(byzanz_recorder_dither_region), (byzanz_recorder_add_image),
+	(stored_image_remove_file), (stored_image_store),
+	(stored_image_dither_get_data), (stored_image_process),
+	(byzanz_recorder_quantize), (byzanz_recorder_encode_get_data),
+	(byzanz_recorder_encode), (byzanz_recorder_run_encoder),
+	(byzanz_recorder_new_fd):
+	  implement a file cache that gets triggered when too much data has
+	  built up. This is done completely inside the encoding thread.
+	  Byzanz can almost realtime-encode small movie windows now.
+	* src/byzanzselect.c: (expose_cb), (button_pressed_cb),
+	(button_released_cb), (motion_notify_cb):
+	  random fixes so you can really select the whole screen and
+	  the selected area is drawn correctly
+
+==================== 0.0.1 ====================
+
+2006-01-08  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	  release version 0.0.1
+
+2006-01-08  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	* po/POTFILES.in:
+	  Fixes so translation works now. make distcheck passes.
+	* po/de.po:
+	  update
+
+2006-01-08  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzapplet.c: (byzanz_applet_start_recording),
+	(byzanz_applet_stop_recording):
+	  record to temp file and then allow the user to save it to where
+	  he wants
+
+2006-01-08  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/Makefile.am:
+	  include gifenc dir, the i18n.h file is there
+	* gifenc/gifenc.c: (gifenc_open), (gifenc_open_fd):
+	* gifenc/gifenc.h:
+	  change gifenc_open function argument order, add gifenc_open_fd
+	* src/byzanzapplet.c: (byzanz_applet_start_recording):
+	* src/byzanzrecorder.c: (byzanz_recorder_new),
+	(byzanz_recorder_new_fd):
+	* src/byzanzrecorder.h:
+	* src/record.c: (main):
+	  make byzanz_recorder_new take a GdkRectangle as area, add
+	  byzanz_recorder_new_fd
+
+2006-01-08  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	  correctly check for XDamage
+	* src/byzanzrecorder.c: (byzanz_recorder_new):
+	* src/byzanzrecorder.h:
+	* src/record.c: (main):
+	  adapt byzanz_recorder_new so it takes a GdkWindow to record
+	* src/Makefile.am:
+	* src/byzanzselect.c:
+	* src/byzanzselect.h:
+	  add code for doing selections of desktop areas
+	* src/byzanzapplet.c: (byzanz_applet_start_recording),
+	(byzanz_applet_fill):
+	  use new selection mechanism
+
+2006-01-06  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzrecorder.c: (byzanz_recorder_filter_damage_event):
+	  only start image encoding routine if there is something to encode
+
+2006-01-06  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/Makefile.am:
+	* src/panelstuffer.c:
+	* src/panelstuffer.h:
+	  added PanelStuffer from battstat applet patch. Added function to
+	  automaticaclly track orientation changes if parent is an applet.
+	* src/byzanzapplet.c: (byzanz_applet_update),
+	(byzanz_applet_is_recording), (byzanz_applet_start_recording),
+	(byzanz_applet_stop_recording), (button_clicked_cb),
+	(destroy_applet), (byzanz_applet_fill):
+	  add a funky label counting the elapsed time
+	* src/byzanzrecorder.c: (byzanz_recorder_idle_cb),
+	(byzanz_recorder_filter_damage_event):
+	  use a different callback in idle and timeout functions
+
+2006-01-06  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzapplet.c: (button_clicked_cb), (byzanz_applet_fill):
+	  use a togglebutton to record (it's still a very simple applet ;))
+	* src/byzanzrecorder.c: (compute_image_size), (recorder_job_free),
+	(recorder_job_new), (byzanz_recorder_run_encoder),
+	(byzanz_recorder_destroy), (byzanz_recorder_queue_image), 
+	(byzanz_recorder_set_max_cache), (byzanz_recorder_get_max_cache),
+	(byzanz_recorder_get_cache):
+	* src/byzanzrecorder.h:
+	  monitor memory usage of cache to avoid eating all memory
+	* src/byzanzrecorder.c: (byzanz_recorder_start),
+	(byzanz_recorder_new):
+	  create the Damage object when starting - that way we can do all
+	  drawing based on Damage events and avoid drawing the whole screen
+	  twice at the start.
+
+2006-01-06  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* Makefile.am:
+	* autogen.sh:
+	* configure.ac:
+	* macros/ac-define-dir.m4:
+	* macros/as-ac-expand.m4:
+	* macros/as-compiler-flag.m4:
+	* macros/as-scrub-include.m4:
+	* macros/as-version.m4:
+	* po/LINGUAS:
+	* po/POTFILES.in:
+	* po/de.po:
+	* src/Makefile.am:
+	  update this whole mess to use gnome-autogen instead of the GStreamer
+	  common/ thingy.
+	* src/ByzanzApplet.server.in.in:
+	* src/byzanzapplet.c: (button_clicked_cb), (destroy_applet),
+	(byzanz_applet_fill):
+	  add a first approach at a recording applet
+
+2006-01-06  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* src/byzanzrecorder.c: (byzanz_recorder_filter_damage_event):
+	  do not immediately process a long-awaited damage event, but try to
+	  process multiple Damage events by registering an idle function
+
+2006-01-05  Benjamin Otte  <in7y118@public.uni-hamburg.de>
+
+	* configure.ac:
+	  check for gthread-2.0 for the app
+	* gifenc/gifenc.c: (gifenc_close):
+	* gifenc/gifenc.h:
+	  make gifenc_close return a boolean to indicate successful creation
+	  of a file. (Currently always returns TRUE)
+	* gifenc/quantize.c: (gifenc_quantize_image):
+	  comment out last print statement
+	* po/de.po:
+	  update
+	* src/Makefile.am:
+	* src/byzanzrecorder.c: 
+	* src/byzanzrecorder.h:
+	  add these 2 files and split out the recording functionality in them.
+	* src/record.c: (verbose_print), (usage), (stop_recording),
+	(start_recording), (prepare_recording), (main):
+	  use ByzanzRecorder and a main loop.
+
+2006-01-05  Benjamin Otte  <otte@gnome.org>
+
+	initial import

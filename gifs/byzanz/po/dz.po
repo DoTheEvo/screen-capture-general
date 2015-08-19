@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
+"POT-Creation-Date: 2007-04-04 03:54+0100\n"
+"PO-Revision-Date: 2007-04-03 23:25+0530\n"
+"Last-Translator: yangka <yanang_ka@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: BHUTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/byzanz.schemas.in.h:1
+msgid "Directory to save in"
+msgstr "ནང་སྲུང་བཞག་འབད་ནི་ལུ་སྣོད་ཐོ།"
+
+#: ../src/byzanz.schemas.in.h:2
+msgid "If set, Byzanz will record the mouse cursor. While useful, recording the mouse cursor results in bigger files and should therefore be used with care."
+msgstr "གཞི་སྒྲིག་ཨིན་པ་ཅིན་ བའི་ཛེནཛེ་གིས་མཱའུསི་འོད་རྟགས་འདི་སྒྲ་བཟུང་འབད་འོང་། ཕན་ཐོགས་ཅན་སྐབས་ ཡིག་སྣོད་ཚུ་སྦོམ་ནང་མཱའུསི་འོད་རྟགས་འདི་སྒྲ་བཟུང་འབདཝ་ད་དེ་འབདཝ་ལས་བདག་འཛིན་ཐོག་ལས་ལག་ལེན་འཐབ་དགོཔ་ཡོདཔ།"
+
+#: ../src/byzanz.schemas.in.h:3
+#: ../src/record.c:39
+msgid "Record mouse cursor"
+msgstr "མཱའུསི་འོད་རྟགས་དྲན་ཐོ།"
+
+#: ../src/byzanz.schemas.in.h:4
+msgid "Recording method"
+msgstr "ཐབས་ལམ་སྒྲ་བཟུང་འབད་དོ།"
+
+#: ../src/byzanz.schemas.in.h:5
+msgid "This is the directory that Byzanz will default to when saving a file."
+msgstr "ཡིག་སྣོད་ཅིག་སྲུང་བཞག་འབད་བའི་སྐབས་བའི་ཛེནཛི་གིས་སྔོན་སྒྲིག་འབད་ནི་སྣོད་ཐོ་དེ་ཨིན།"
+
+#: ../src/byzanz.schemas.in.h:6
+msgid "Use this method as the default method for recording. Must be one of \"screen\" for recording the whole screen, \"area\" for selecting an area or \"window\" to select a window."
+msgstr "སྒྲ་བཟུང་འབད་ནི་དོན་ལུ་སྔོན་སྒྲིག་ཐབས་ལམ་བཟུམ་སྦེ་ཐབས་ལམ་འདི་ལག་ལེན་འཐབ།  འདི་ཡང་ \"screen\" གསལ་གཞི་ཧྲིལ་བུམ་སྒྲ་བཟུང་འབད་ནི་ \"area\" མངའ་ཁོངས་ཅིག་སེལ་འཐུ་འབད་ནི་ཡང་ན་ \"window\" ཝིནཌོ་ཅིག་སེལ་འཐུ་འབད་ནི་གཅིག་དགོཔ་ཨིན།"
+
+#: ../src/byzanzapplet.c:110
+msgid "A file could not be saved."
+msgstr "ཡིག་སྣོད་ཅིག་སྲུང་བཞག་འབད་མ་ཚུགས།"
+
+#: ../src/byzanzapplet.c:111
+#, c-format
+msgid ""
+"\"%s\" could not be saved.\n"
+"The error that occured was: %s"
+msgstr ""
+"\"%s\" སྲུང་བཞག་འབད་མ་ཚུགས\n"
+"འཛོལ་བ་འབྱུང་ཡོད་མི་དེ་ %s"
+
+#: ../src/byzanzapplet.c:175
+msgid "Save Recorded File"
+msgstr "དྲན་ཐོ་འབད་ཡོད་མི་ཡིག་སྣོད་སྲུང་བཞག་འབད།"
+
+#: ../src/byzanzapplet.c:224
+msgid "Stop current recording"
+msgstr "ད་ལྟོའི་སྒྲ་བཟུང་འབད་ནི་བཀག"
+
+#: ../src/byzanzapplet.c:258
+msgid "Cannot start recording."
+msgstr "སྒྲ་བཟུང་འབད་ནི་འགོ་བཙུགས་མི་ཚུགས།"
+
+#: ../src/byzanzapplet.c:259
+#: ../src/record.c:131
+#, c-format
+msgid "Byzanz requires a 24bpp or 32bpp depth for recording. The current resolution is set to %dbpp."
+msgstr "སྒྲ་བཟུང་འབད་ནི་དོན་ལུ་བའི་ཛེནཛི་ལུ་ བི་པི་པི་༢༤་ཡང་ན་བི་པི་པི་༣༢་གི་གཏིང་ཚད་ཅིག་དགོ་མཁོ་ཡོདཔ་ཨིན། ད་ལྟོའི་ཧུམ་ཆ་འདི་%dབི་པི་པི་ལུ་གཞི་སྒྲིག་འབད་ཡོདཔ་ཨིན།"
+
+#: ../src/byzanzapplet.c:369
+#: ../src/ByzanzApplet.server.in.in.h:2
+msgid "Desktop Recorder"
+msgstr "ཌེཀསི་ཊོཔ་སྒྲ་བཟུང་མི།"
+
+#: ../src/byzanzapplet.c:372
+#: ../src/ByzanzApplet.server.in.in.h:3
+msgid "Record what's happening on your desktop"
+msgstr "ཁྱོད་ཀྱི་ཌེཀསི་ཊོཔ་གུ་ག་ཅིག་འབདཝ་ཨིན་ན་སྒྲ་བཟུང་འབད།"
+
+#: ../src/byzanzapplet.c:374
+msgid "translator-credits"
+msgstr "སྐད་བསྒྱུར་པའི་ངོས་བསྟོད།"
+
+#: ../src/byzanzapplet.c:441
+msgid "Record _Mouse Cursor"
+msgstr "མཱའུསི་འོད་རྟགས་སྒྲ་བཟུང་འབད།"
+
+#: ../src/byzanzapplet.xml.h:1
+msgid "_About"
+msgstr "སྐོར་ལས།(_A)"
+
+#: ../src/byzanzselect.c:312
+msgid "Record _Desktop"
+msgstr "ཌེཀསི་ཊོཔ་སྒྲ་བཟུང་འབད།(_D)"
+
+#: ../src/byzanzselect.c:312
+msgid "Record the entire desktop"
+msgstr "ཌེཀསི་ཊོན་ཧྲིལ་བུམ་སྒྲ་བཟུང་འབད།"
+
+#: ../src/byzanzselect.c:314
+msgid "Record _Area"
+msgstr "མངའ་ཁོངས་སྒྲ་བཟུང་འབད།(_A)"
+
+#: ../src/byzanzselect.c:314
+msgid "Record a selected area of the desktop"
+msgstr "ཌེཀསི་ཊོཔ་གི་སེལ་འཐུ་འབད་ཡོད་མི་མངའ་ཁོངས་ཅིག་སྒྲ་བཟུང་འབད།"
+
+#: ../src/byzanzselect.c:316
+msgid "Record _Window"
+msgstr "ཝིནཌོ་སྒྲ་བཟུང་འབད།(_W)"
+
+#: ../src/byzanzselect.c:316
+msgid "Record a selected window"
+msgstr "སེལ་འཐུ་འབད་ཡོད་མི་ཝིནཌོ་ཅིག་སྒྲ་བཟུང་འབད།"
+
+#: ../src/ByzanzApplet.server.in.in.h:1
+msgid "Byzanz Factory"
+msgstr "བའི་ཛེནཛི་འཕྲུལ་ཁང་།"
+
+#: ../src/record.c:36
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "བསྒུལ་བཟོ་གི་དུས་ཡུན(སྔོན་སྒྲིག་ སྐར་ཆ་༡༠)"
+
+#: ../src/record.c:36
+#: ../src/record.c:37
+msgid "SECS"
+msgstr "ཨེསི་ཨི་སི་ཨེསི།"
+
+#: ../src/record.c:37
+msgid "Delay before start (default: 1 second)"
+msgstr "འགོ་བཙུགས་པའི་ཧེ་མ་བཏོན་གཏང་(སྔོན་སྒྲིག་ སྐར་ཆ་༡)"
+
+#: ../src/record.c:38
+msgid "Let the animation loop"
+msgstr "བསྒུལ་བཟོ་འདི་འཕྲལ་བཀོལ་འབད་བཅུག"
+
+#: ../src/record.c:40
+msgid "X coordinate of rectangle to record"
+msgstr "སྒྲ་བཟུང་ལུ་གྲུ་བཞི་ནར་མོ་གི་ཨེགསི་ཆ་སྙོམ།"
+
+#: ../src/record.c:40
+#: ../src/record.c:41
+#: ../src/record.c:42
+#: ../src/record.c:43
+msgid "PIXEL"
+msgstr "པིག་སེལ།"
+
+#: ../src/record.c:41
+msgid "Y coordinate of rectangle to record"
+msgstr "སྒྲ་བཟུང་ལུ་གྲུ་བཞི་ནར་མོ་གི་ཝའི་ཆ་སྙོམ།"
+
+#: ../src/record.c:42
+msgid "Width of recording rectangle"
+msgstr "གྲ་བཞི་ནར་མོ་སྒྲ་བཟུང་འབད་ནི་གི་རྒྱ་ཚད།"
+
+#: ../src/record.c:43
+msgid "Height of recording rectangle"
+msgstr "གྲ་བཞི་ནར་མོ་སྒྲ་བཟུང་འབད་ནི་གི་མཐོ་ཚད།"
+
+#: ../src/record.c:44
+msgid "Be verbose"
+msgstr "ཚིག་མང་འབད་དགོཔ།"
+
+#: ../src/record.c:66
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "བེད་སྤྱོད %s [གདམ་ཁ་ཚུ] ཡིག་སྣོད་ཀྱི་མིང་\n"
+
+#: ../src/record.c:67
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --གྲོགས་རམ\n"
+
+#: ../src/record.c:73
+msgid "Recording done. Cleaning up...\n"
+msgstr "སྒྲ་བཟུང་འབད་ཚར་ཡོདཔ། གཙང་དག་བཟོ་དོ་་་\n"
+
+#: ../src/record.c:83
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "སྒར་བཟུང་འགོ་བཙུགསཔ་ད་ སྒྲ་བཟུང་ %d སྐར་ཆ་འོང་་་\n"
+
+#: ../src/record.c:93
+msgid "Preparing recording. Will start in 1 second...\n"
+msgstr "སྒྲ་བཟུང་འབད་ནི་གྲ་སྒྲིག་འབད་དོ།  སྐར་ཆ་༡་ནང་འགོ་བཙུགས་འོང་།\n"
+
+#: ../src/record.c:116
+msgid "record your current desktop session"
+msgstr "ཁྱོད་ཀྱི་ད་ལྟོའི་ཌེཀསི་ཊོཔ་ལཱ་ཡུན་སྒྲ་བཟུང་འབད།"
+
+#: ../src/record.c:120
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "གདམ་ཁ་ཕྱི་འགྱུར %s\n"
+
+#: ../src/record.c:138
+#, c-format
+msgid ""
+"Could not prepare recording.\n"
+"Most likely the Damage extension is not available on the X server or the file \"%s\" is not writable.\n"
+msgstr ""
+"སྒྲ་བཟུང་འབད་ནི་ག་སྒྲིག་འབད་མ་ཚུགས།\n"
+"མང་ཤོས་རང་མེདཔ་གཏང་བའི་རྒྱ་བསྐྱེད་འདི་སར་བར་ཨེགསི་འདི་གུ་ཐོབ་ཚུགསཔ་མེདཔ་ཡང་ན་ཡིག་སྣོད་འདི་ \"%s\" འབྲི་བཏུབ་མེནམ་ཨིན་མས།\n"
+

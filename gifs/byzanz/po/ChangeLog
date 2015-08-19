@@ -1,0 +1,103 @@
+2008-12-22  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated.
+
+2008-11-09  Kenneth Nielsen  <k.nielsen81@gmail.com>
+
+	* ad.po: Added Danish translation by Kris Hansen
+
+2008-11-08  Wadim Dziedzic  <wdziedzic@aviary.pl>
+
+	* pl.po: Added Polish translation by Piotr "Zaryk" Makowski
+
+2008-10-12  Petr Kovar  <pknbe@volny.cz>
+
+	* cs.po: Updated Czech translation by Adrian Gunis
+	(bug #529244 again).
+
+2008-10-08  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* nb.po: Added Norwegian bokmål translation.
+
+2008-08-29  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+
+	* es.po: Updated Spanish translation
+
+2008-07-31  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Updated Arabic Translation by Djihed Afifi.
+
+2008-07-31  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Updated Arabic Translation by Djihed Afifi.
+
+2008-07-11  Nickolay V. Shmyrev  <nshmyrev@yandex.ru>
+
+	* ru.po: Added Russian translation by
+	 Kolmagortsev Pavel.
+
+2008-07-02  Yannig Marchegay <yannig@marchegay.org>
+
+	* oc.po: Updated Occitan translation.
+
+2008-06-06   Clytie Siddall <clytie@riverland.net.au>
+
+	* vi.po: Added Vietnamese translation.
+
+2008-05-05  Jonh Wendell  <jwendell@gnome.org>
+
+	* pt_BR.po: Added Brazilian Portuguese translation by Fábio Nogueira.
+
+2008-05-01  Petr Kovar  <pknbe@volny.cz>
+
+	* cs.po: Added Czech translation by Adrian Gunis.
+
+2008-03-24  Kostas Papadimas <pkst@gnome.org>
+
+	* el.po: Added Greek translation by Giannis Katsampiris.
+
+2007-11-21  Yannig Marchegay <yannig@marchegay.org> 
+
+	* oc.po: Updated Occitan translation
+
+2007-10-12  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation added by Bálint Magyar
+
+2007-08-15  Ilkka Tuohela  <hile@iki.fi>
+
+	* fi.po: Added Finnish translation.
+
+2007-07-23  Satoru SATOH <ss@gnome.gr.jp>
+
+	* ja.po: Added Japanese translation.
+
+2007-06-19  Jordi Mas <jmas@softcatala.org>
+
+	* ca.po: Catalan translation by Xavi Salvat Lozano
+
+2007-04-26  Stéphane Raimbault  <stephane.raimbault@gmail.com>
+
+	* fr.po: Updated French translation by Jonathan Ernst and
+	Robert-André Mauchin.
+
+2007-04-25  Jorge Gonzalez <jorgegonz@svn.gnome.org>
+
+        * es.po: Updated Spanish translation
+
+2007-04-22  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Updated Arabic Translation by Djihed Afifi.
+
+2007-04-14  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Added Arabic Translation.
+	* LINGUAS: Added ar.
+
+2007-04-04  Pema Geyleg  <pema.geyleg@gmail.com>
+
+	* dz.po: Added dzongkha translation
+
+2006-10-04  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Added Swedish translation.

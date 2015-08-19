@@ -1,0 +1,279 @@
+# Portuguese translations for byzanz package.
+# Copyright (C) 2008-2012 THE byzanz'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the byzanz package.
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
+# Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2009.
+# Carlos José Pereira <carlao2005@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Byzanz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=byzanz&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-09-23 20:11+0000\n"
+"PO-Revision-Date: 2013-09-24 08:01-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: ../src/byzanzapplet.c:104 ../src/byzanzapplet.c:267
+msgid "Record your desktop"
+msgstr "Gravar sua área de trabalho"
+
+#: ../src/byzanzapplet.c:105
+msgid "Select area to record"
+msgstr "Selecionar área para gravar"
+
+#: ../src/byzanzapplet.c:106
+msgid "End current recording"
+msgstr "Final da gravação atual"
+
+#: ../src/byzanzapplet.c:107
+msgid "Abort encoding of recording"
+msgstr "Cancelar codificação da gravação"
+
+#: ../src/byzanzapplet.c:277
+msgid "All files"
+msgstr "Todos os arquivos"
+
+#: ../src/byzanzapplet.c:293
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:5 ../src/record.c:42
+msgid "Record audio"
+msgstr "Gravar áudio"
+
+#: ../src/byzanzapplet.c:361
+msgid "Desktop Session"
+msgstr "Sessão da área de trabalho"
+
+#: ../src/byzanzapplet.c:364
+msgid "Record what's happening on your desktop"
+msgstr "Grave o que está acontecendo na sua área de trabalho"
+
+#: ../src/byzanzapplet.c:366
+msgid "translator-credits"
+msgstr ""
+"Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008\n"
+"Carlos José Pereira <carlao2005@gmail.com>, 2010\n"
+"Enrico Nicoletto <liverig@gmail.com>, 2013."
+
+#: ../src/byzanzapplet.c:371
+msgid "_About"
+msgstr "_Sobre"
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "arquivos de depuração do Byzanz"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:128
+msgid "This format does not support recording audio."
+msgstr "Não há suporte para gravação de áudio neste formato."
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Vídeo Flash"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "Nenhuma imagem para codificar."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "Imagens GIF"
+
+#: ../src/byzanzencodergstreamer.c:170
+msgid "Failed to start GStreamer pipeline"
+msgstr "Falha ao iniciar a fila de processamento do GStreamer"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Vídeo Theora"
+
+#: ../src/byzanzencoderwebm.c:38
+msgid "WebM video"
+msgstr "Vídeo WebM"
+
+#: ../src/byzanzselect.c:365
+msgid "Record _Desktop"
+msgstr "Gravar a área _de trabalho"
+
+#: ../src/byzanzselect.c:365
+msgid "Record the entire desktop"
+msgstr "Grava toda a área de trabalho"
+
+#: ../src/byzanzselect.c:367
+msgid "Record _Area"
+msgstr "Gravar uma áre_a"
+
+#: ../src/byzanzselect.c:367
+msgid "Record a selected area of the desktop"
+msgstr "Grava uma área selecionada da área de trabalho"
+
+#: ../src/byzanzselect.c:369
+msgid "Record _Window"
+msgstr "Gravar a _Janela"
+
+#: ../src/byzanzselect.c:369
+msgid "Record a selected window"
+msgstr "Grava a janela selecionada"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "Não é uma gravação do Byzanz"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "Ordem dos bytes sem suporte"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:1
+msgid "Save filename"
+msgstr "Salvar nome do arquivo"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:2
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr ""
+"URI para o nome do arquivo Byzanz que irá sugerir quando iniciar a gravação."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:3
+msgid "Recording method"
+msgstr "Método de gravação"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:4
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Utilize este método como o padrão para gravação. Deve ser \"screen\" para "
+"gravação de toda tela, \"area\" para selecionar uma área ou \"window\" para "
+"selecionar uma janela."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:6
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Se verdadeiro, Byzanz gravará áudio do dispositivo padrão se houver suporte "
+"ao formato. Isto permite a narração junto com a gravação."
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "uso: %s [OPÇÕES] arquivo-de-entrada arquivo-de-saída\n"
+
+#: ../src/playback.c:38 ../src/record.c:72
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/playback.c:74
+msgid "process a Byzanz debug recording"
+msgstr "processa uma gravação de depuração do Byzanz"
+
+#: ../src/playback.c:81 ../src/record.c:181
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Opção incorreta: %s\n"
+
+#: ../src/record.c:38
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Duração da animação (padrão: 10 segundos)"
+
+#: ../src/record.c:38 ../src/record.c:40
+msgid "SECS"
+msgstr "SEGS"
+
+#: ../src/record.c:39
+msgid "Command to execute and time"
+msgstr "Comando para executar e hora"
+
+#: ../src/record.c:39
+msgid "COMMAND"
+msgstr "COMANDO"
+
+#: ../src/record.c:40
+msgid "Delay before start (default: 1 second)"
+msgstr "Atraso antes de iniciar (padrão: 1 segundo)"
+
+#: ../src/record.c:41
+msgid "Record mouse cursor"
+msgstr "Gravar o cursor do mouse"
+
+#: ../src/record.c:43
+msgid "X coordinate of rectangle to record"
+msgstr "Coordenada X do retângulo para gravar"
+
+#: ../src/record.c:43 ../src/record.c:44 ../src/record.c:45 ../src/record.c:46
+msgid "PIXEL"
+msgstr "PIXEL"
+
+#: ../src/record.c:44
+msgid "Y coordinate of rectangle to record"
+msgstr "Coordenada Y do retângulo para gravar"
+
+#: ../src/record.c:45
+msgid "Width of recording rectangle"
+msgstr "Largura do retângulo para gravação"
+
+#: ../src/record.c:46
+msgid "Height of recording rectangle"
+msgstr "Altura do retângulo para gravação"
+
+#: ../src/record.c:47
+msgid "Be verbose"
+msgstr "Detalhado"
+
+#: ../src/record.c:71
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "uso: %s [OPÇÕES] nome do arquivo\n"
+
+#: ../src/record.c:81
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "Erro durante a gravação: %s\n"
+
+#: ../src/record.c:87
+msgid "Recording done.\n"
+msgstr "Gravação concluída.\n"
+
+#: ../src/record.c:95
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Gravação concluída. Finalizando codificação...\n"
+
+#: ../src/record.c:107
+#, c-format
+msgid "Child exited with error %d\n"
+msgstr "Processo filho terminou com erro %d\n"
+
+#: ../src/record.c:121
+#, c-format
+msgid "Invalid exec command: %s\n"
+msgstr "Comando de execução inválido: %s\n"
+
+#: ../src/record.c:129
+#, c-format
+msgid "Failed to execute: %s\n"
+msgstr "Ocorreu falha ao executar: %s\n"
+
+#: ../src/record.c:135
+msgid "Recording starts. Will record until child exits...\n"
+msgstr "Gravação iniciada. Será gravado até o processo filho terminar...\n"
+
+#: ../src/record.c:138
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Iniciando gravação. Serão gravados %d segundos...\n"
+
+#: ../src/record.c:173
+msgid "record your current desktop session"
+msgstr "gravar sua sessão atual da área de trabalho"
+
+#: ../src/record.c:190
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "Área fornecida não está dentro da área de trabalho.\n"

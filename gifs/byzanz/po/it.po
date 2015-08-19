@@ -1,0 +1,252 @@
+# Italian translation for byzanz.
+# Copyright (C) 2009 byzanz's COPYRIGHT HOLDER
+# This file is distributed under the same license as the byzanz package.
+# Gianvito Cavasoli <janvitus@ubuntu-it.org>, 2009, 2010.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=byzanz&component=general\n"
+"POT-Creation-Date: 2010-06-08 11:07+0000\n"
+"PO-Revision-Date: 2010-06-02 20:27+0200\n"
+"Last-Translator: Gianvito Cavasoli <janvitus@ubuntu-it.org>\n"
+"Language-Team: Italiana <tp@lists.linux.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/byzanz.schemas.in.h:1
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Se impostata, l'applicazione registrerà l'audio dal dispositivo audio "
+"predefinito se il formato lo supporta. Questo permette la narrazione durante "
+"la registrazione."
+
+#: ../src/byzanz.schemas.in.h:2 ../src/byzanzapplet.c:294 ../src/record.c:40
+msgid "Record audio"
+msgstr "Registra audio"
+
+#: ../src/byzanz.schemas.in.h:3
+msgid "Recording method"
+msgstr "Metodo di registrazione"
+
+#: ../src/byzanz.schemas.in.h:4
+msgid "Save filename"
+msgstr "Nome del file da salvare"
+
+#: ../src/byzanz.schemas.in.h:5
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr ""
+"URI per il nome del file che l'applicazione suggerirà quando sarà avviata "
+"una registrazione."
+
+#: ../src/byzanz.schemas.in.h:6
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Usa questo metodo come predefinito per la registrazione. Deve essere uno fra "
+"\"screen\" per la registrazione dell'intero schermo, \"area\" per "
+"selezionare un'area o \"window\" per selezionare una finestra."
+
+#: ../src/byzanzapplet.c:103 ../src/byzanzapplet.c:268
+msgid "Record your desktop"
+msgstr "Registra la scrivania"
+
+#: ../src/byzanzapplet.c:104
+msgid "Select area to record"
+msgstr "Seleziona area da registrare"
+
+#: ../src/byzanzapplet.c:105
+msgid "End current recording"
+msgstr "Termina la registrazione attuale"
+
+#: ../src/byzanzapplet.c:106
+msgid "Abort encoding of recording"
+msgstr "Interrompe la codificazione della registrazione"
+
+#: ../src/byzanzapplet.c:278
+msgid "All files"
+msgstr "Tutti i file"
+
+#: ../src/byzanzapplet.c:368
+msgid "Desktop Session"
+msgstr "Sessione desktop"
+
+#: ../src/byzanzapplet.c:371 ../src/ByzanzApplet.server.in.in.h:3
+msgid "Record what's happening on your desktop"
+msgstr "Registra cosa accade sulla scrivania"
+
+#: ../src/byzanzapplet.c:373
+msgid "translator-credits"
+msgstr "Gianvito Cavasoli <janvitus@ubuntu-it.org>"
+
+#: ../src/byzanzapplet.xml.h:1
+msgid "_About"
+msgstr "I_nformazioni"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:118
+msgid "This format does not support recording audio."
+msgstr "Questo formato non supporta la registrazione audio."
+
+# Descrive il nuovo tipo di mime collegato a Byzanz (*.byzanz)
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "File di debug di Byzanz"
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Video Flash"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "Nessuna immagine da codificare."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "Immagini GIF"
+
+#: ../src/byzanzencodergstreamer.c:156
+msgid "Failed to start GStreamer pipeline"
+msgstr "Avvio della pipeline di GStreamer non riuscito"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Video Theora"
+
+#: ../src/byzanzselect.c:354
+msgid "Record _Desktop"
+msgstr "Registra _scrivania"
+
+#: ../src/byzanzselect.c:354
+msgid "Record the entire desktop"
+msgstr "Registra l'intera scrivania"
+
+#: ../src/byzanzselect.c:356
+msgid "Record _Area"
+msgstr "Registra _area"
+
+#: ../src/byzanzselect.c:356
+msgid "Record a selected area of the desktop"
+msgstr "Registra un'area selezionata della scrivania"
+
+#: ../src/byzanzselect.c:358
+msgid "Record _Window"
+msgstr "Registra _finestra"
+
+#: ../src/byzanzselect.c:358
+msgid "Record a selected window"
+msgstr "Registra una finestra selezionata"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "Non è una registrazione di Byzanz"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "Ordine dei byte non supportato"
+
+#: ../src/ByzanzApplet.server.in.in.h:1
+msgid "Byzanz Factory"
+msgstr "Fabbrica Byzanz"
+
+#: ../src/ByzanzApplet.server.in.in.h:2
+msgid "Desktop Recorder"
+msgstr "Registratore della scrivania"
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "uso: %s [OPZIONI] FILEDIENTRATA FILEDIUSCITA\n"
+
+#: ../src/playback.c:38 ../src/record.c:68
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/playback.c:77
+msgid "process a Byzanz debug recording"
+msgstr "elabora una registrazione di debug di Byzanz"
+
+#: ../src/playback.c:84 ../src/record.c:140
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Opzione errata: %s\n"
+
+#: ../src/record.c:37
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Durata dell'animazione (predefinita: 10 secondi)"
+
+#: ../src/record.c:37 ../src/record.c:38
+msgid "SECS"
+msgstr "SEC"
+
+#: ../src/record.c:38
+msgid "Delay before start (default: 1 second)"
+msgstr "Ritardo prima dell'avvio (predefinito: 1 secondo)"
+
+#: ../src/record.c:39
+msgid "Record mouse cursor"
+msgstr "Registra cursore del mouse"
+
+#: ../src/record.c:41
+msgid "X coordinate of rectangle to record"
+msgstr "Coordinata X del rettangolo da registrare"
+
+#: ../src/record.c:41 ../src/record.c:42 ../src/record.c:43 ../src/record.c:44
+msgid "PIXEL"
+msgstr "PIXEL"
+
+#: ../src/record.c:42
+msgid "Y coordinate of rectangle to record"
+msgstr "Coordinata Y del rettangolo da registrare"
+
+#: ../src/record.c:43
+msgid "Width of recording rectangle"
+msgstr "Larghezza del rettangolo di registrazione"
+
+#: ../src/record.c:44
+msgid "Height of recording rectangle"
+msgstr "Altezza del rettangolo di registrazione"
+
+#: ../src/record.c:45
+msgid "Be verbose"
+msgstr "Prolisso"
+
+#: ../src/record.c:67
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "uso: %s [OPZIONI] nome del file\n"
+
+#: ../src/record.c:77
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "Errore durante la registrazione: %s\n"
+
+#: ../src/record.c:83
+msgid "Recording done.\n"
+msgstr "Registrazione eseguita.\n"
+
+#: ../src/record.c:91
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Registrazione completata. Codificazione in ultimazione...\n"
+
+#: ../src/record.c:100
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Registrazione avviata. Saranno registrati %d secondi...\n"
+
+#: ../src/record.c:132
+msgid "record your current desktop session"
+msgstr "registra l'attuale sessione desktop"
+
+#: ../src/record.c:149
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "L'area fornita non è all'interno della scrivania.\n"

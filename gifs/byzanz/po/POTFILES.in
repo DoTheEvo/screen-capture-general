@@ -1,0 +1,23 @@
+# Files which have already been marked to allow runtime translations of messages
+src/byzanzapplet.c
+src/byzanzapplet.xml
+src/byzanzencoderbyzanz.c
+src/byzanzencoder.c
+src/byzanzencoderflv.c
+src/byzanzencodergif.c
+src/byzanzencodergstreamer.c
+src/byzanzencoderogv.c
+src/byzanzencoderwebm.c
+src/byzanzlayer.c
+src/byzanzlayercursor.c
+src/byzanzlayerwindow.c
+src/byzanzrecorder.c
+src/byzanzselect.c
+src/byzanzserialize.c
+src/byzanzsession.c
+src/org.gnome.byzanz.applet.gschema.xml.in.in
+src/org.gnome.ByzanzApplet.panel-applet.in.in
+src/paneltogglebutton.c
+src/playback.c
+src/record.c
+src/screenshot-utils.c

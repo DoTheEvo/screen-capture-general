@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=ByzanzAppletFactory
+Location=@LIBEXECDIR@/byzanz-applet
+_Name=Byzanz Factory
+_Description=Byzanz Factory
+
+[ByzanzApplet]
+_Name=Desktop Recorder
+_Description=Record what's happening on your desktop
+Icon=byzanz-record-desktop
+BonoboId=OAFIID:ByzanzApplet
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=byzanz
+X-GNOME-Bugzilla-Component=applet
+X-GNOME-Bugzilla-Version=@VERSION@
+X-GNOME-Bugzilla-OtherBinaries=byzanz-applet

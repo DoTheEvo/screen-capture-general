@@ -1,0 +1,247 @@
+# Chinese (China) translation for byzanz.
+# Copyright (C) 2010 byzanz's COPYRIGHT HOLDER
+# This file is distributed under the same license as the byzanz package.
+# YunQiang Su <wzssyqa@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=byzanz&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-20 18:39+0000\n"
+"PO-Revision-Date: 2011-03-03 21:34+0800\n"
+"Last-Translator: Yinghua Wang <wantinghard@gmail.com>\n"
+"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/byzanz.schemas.in.h:1
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"如果设置了，如果格式支持，Byzanz 将从默认音频设置录制音频。这允许随录制进行叙"
+"述。"
+
+#: ../src/byzanz.schemas.in.h:2 ../src/byzanzapplet.c:292 ../src/record.c:40
+msgid "Record audio"
+msgstr "录音"
+
+#: ../src/byzanz.schemas.in.h:3
+msgid "Recording method"
+msgstr "录音方法"
+
+#: ../src/byzanz.schemas.in.h:4
+msgid "Save filename"
+msgstr "保存文件名"
+
+#: ../src/byzanz.schemas.in.h:5
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr "启动录制时，Byzanz 将建议文件名的 URI。"
+
+#: ../src/byzanz.schemas.in.h:6
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"使用此方法作为默认方法。必须是如下之一：“screen”表示录制整个屏幕，“area”表示"
+"选择一个区域，“window”表示选择一个窗口。"
+
+#: ../src/byzanzapplet.c:102 ../src/byzanzapplet.c:266
+msgid "Record your desktop"
+msgstr "录制桌面"
+
+#: ../src/byzanzapplet.c:103
+msgid "Select area to record"
+msgstr "选择录制的区域"
+
+#: ../src/byzanzapplet.c:104
+msgid "End current recording"
+msgstr "结束当前录制"
+
+#: ../src/byzanzapplet.c:105
+msgid "Abort encoding of recording"
+msgstr "退出录制的编码"
+
+#: ../src/byzanzapplet.c:276
+msgid "All files"
+msgstr "所有文件"
+
+#: ../src/byzanzapplet.c:366
+msgid "Desktop Session"
+msgstr "桌面会话"
+
+#: ../src/byzanzapplet.c:369
+msgid "Record what's happening on your desktop"
+msgstr "录制您桌面上发生的事情"
+
+#: ../src/byzanzapplet.c:371
+msgid "translator-credits"
+msgstr "YunQiang Su <wzssyqazz@gmail.com>"
+
+#: ../src/byzanzapplet.c:376
+msgid "_About"
+msgstr "关于(_A)"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:127
+msgid "This format does not support recording audio."
+msgstr "此格式不支持录制音频。"
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "Byzanz 调试文件"
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Flash 视频"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "没有要编码的图像"
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "GIF 图像"
+
+#: ../src/byzanzencodergstreamer.c:165
+msgid "Failed to start GStreamer pipeline"
+msgstr "启动 GStreamer 管道失败"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Theora 视频"
+
+#: ../src/byzanzencoderwebm.c:38
+msgid "WebM video"
+msgstr "WebM 视频"
+
+#: ../src/byzanzselect.c:357
+msgid "Record _Desktop"
+msgstr "录制桌面(_D)"
+
+#: ../src/byzanzselect.c:357
+msgid "Record the entire desktop"
+msgstr "录制整个桌面"
+
+#: ../src/byzanzselect.c:359
+msgid "Record _Area"
+msgstr "录制区域(_A)"
+
+#: ../src/byzanzselect.c:359
+msgid "Record a selected area of the desktop"
+msgstr "录制桌面上选择的一个区域"
+
+#: ../src/byzanzselect.c:361
+msgid "Record _Window"
+msgstr "录制窗口(_W)"
+
+#: ../src/byzanzselect.c:361
+msgid "Record a selected window"
+msgstr "录制选择的窗口"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "不是一个 Byzanz 记录"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "不支持的字节顺序"
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "用法：%s [选项] 输入文件 输出文件\n"
+
+#: ../src/playback.c:38 ../src/record.c:68
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/playback.c:77
+msgid "process a Byzanz debug recording"
+msgstr "处理 Byzanz 调试记录"
+
+#: ../src/playback.c:84 ../src/record.c:143
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "错误选项：%s\n"
+
+#: ../src/record.c:37
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "动画的时间 (默认：10 秒)"
+
+#: ../src/record.c:37 ../src/record.c:38
+msgid "SECS"
+msgstr "SECS"
+
+#: ../src/record.c:38
+msgid "Delay before start (default: 1 second)"
+msgstr "开始之前的延时(默认：1 秒)"
+
+#: ../src/record.c:39
+msgid "Record mouse cursor"
+msgstr "录制鼠标光标"
+
+#: ../src/record.c:41
+msgid "X coordinate of rectangle to record"
+msgstr "要录制矩形的 X 坐标"
+
+#: ../src/record.c:41 ../src/record.c:42 ../src/record.c:43 ../src/record.c:44
+msgid "PIXEL"
+msgstr "像素"
+
+#: ../src/record.c:42
+msgid "Y coordinate of rectangle to record"
+msgstr "要录制矩形的 Y 坐标"
+
+#: ../src/record.c:43
+msgid "Width of recording rectangle"
+msgstr "录制矩形的宽度"
+
+#: ../src/record.c:44
+msgid "Height of recording rectangle"
+msgstr "录制矩形的高度"
+
+#: ../src/record.c:45
+msgid "Be verbose"
+msgstr "详细"
+
+#: ../src/record.c:67
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "用法： %s [选项] 文件名\n"
+
+#: ../src/record.c:77
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "录制时出错： %s\n"
+
+#: ../src/record.c:83
+msgid "Recording done.\n"
+msgstr "录制完成。\n"
+
+#: ../src/record.c:91
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "录制完成。正在完成编码...\n"
+
+#: ../src/record.c:100
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "录制开始。将录制 %d 秒...\n"
+
+#: ../src/record.c:135
+msgid "record your current desktop session"
+msgstr "录制您的当前桌面会话"
+
+#: ../src/record.c:152
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "给定的区域不在桌面内。\n"
+
+#~ msgid "Byzanz Factory"
+#~ msgstr "Byzanz 工厂"
+
+#~ msgid "Desktop Recorder"
+#~ msgstr "桌面录像机"

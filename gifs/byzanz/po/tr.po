@@ -1,0 +1,327 @@
+# translation of tr.po to Turkish
+# This file is put in the public domain.
+#
+# Bülent ŞENER <bsener@inonu.edu.tr>, 2006.
+# İşbaran Akçayır <isbaran@gmail.com>, 2015.
+# Muhammet Kara <muhammetk@gmail.com>, 2014, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tr\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=byzanz&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-02-23 16:02+0000\n"
+"PO-Revision-Date: 2015-06-09 20:26+0300\n"
+"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"X-POOTLE-MTIME: 1424247983.000000\n"
+
+#: ../src/byzanzapplet.c:102 ../src/byzanzapplet.c:265
+msgid "Record your desktop"
+msgstr "Masaüstünüzü kaydedin"
+
+#: ../src/byzanzapplet.c:103
+msgid "Select area to record"
+msgstr "Kaydedilecek alanı seçin"
+
+#: ../src/byzanzapplet.c:104
+msgid "End current recording"
+msgstr "Geçerli kaydı bitir"
+
+#: ../src/byzanzapplet.c:105
+msgid "Abort encoding of recording"
+msgstr "Kaydın kodlanmasını durdur"
+
+#: ../src/byzanzapplet.c:275
+msgid "All files"
+msgstr "Tüm dosyalar"
+
+#: ../src/byzanzapplet.c:291
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:5 ../src/record.c:40
+msgid "Record audio"
+msgstr "Ses kaydedin"
+
+#: ../src/byzanzapplet.c:359
+msgid "Desktop Session"
+msgstr "Masaüstü Oturumu"
+
+#: ../src/byzanzapplet.c:362
+msgid "Record what's happening on your desktop"
+msgstr "Masaüstünüzde olan şeyleri kaydedin"
+
+#: ../src/byzanzapplet.c:364
+msgid "translator-credits"
+msgstr ""
+"Bülent ŞENER <bsener@inonu.edu.tr>\n"
+"Muhammet KARA <muhammetk@gmail.com>"
+
+#: ../src/byzanzapplet.c:369
+msgid "_About"
+msgstr "_Hakkında"
+
+#: ../src/byzanzencoderbyzanz.c:78
+msgid "Byzanz debug files"
+msgstr "Byzanz hata ayıklama dosyaları"
+
+#: ../src/byzanzencoder.c:87 ../src/byzanzencodergstreamer.c:126
+msgid "This format does not support recording audio."
+msgstr "Bu biçim, ses kaydetmeyi desteklemiyor."
+
+#: ../src/byzanzencoderflv.c:36
+msgid "Flash video"
+msgstr "Flash video"
+
+#: ../src/byzanzencodergif.c:207
+msgid "No image to encode."
+msgstr "Kodlanacak resim yok."
+
+#: ../src/byzanzencodergif.c:246
+msgid "GIF images"
+msgstr "GIF resimleri"
+
+#: ../src/byzanzencodergstreamer.c:168
+msgid "Failed to start GStreamer pipeline"
+msgstr "GStreamer boru hattı başlatılamadı"
+
+#: ../src/byzanzencoderogv.c:36
+msgid "Theora video"
+msgstr "Theora videosu"
+
+#: ../src/byzanzencoderwebm.c:36
+msgid "WebM video"
+msgstr "WebM videosu"
+
+#: ../src/byzanzselect.c:363
+msgid "Record _Desktop"
+msgstr "_Tüm Pencereleri Kaydet"
+
+#: ../src/byzanzselect.c:363
+msgid "Record the entire desktop"
+msgstr "Tüm Pencereleri Kaydet"
+
+#: ../src/byzanzselect.c:365
+msgid "Record _Area"
+msgstr "K_ayıt Alanını Seçin"
+
+#: ../src/byzanzselect.c:365
+msgid "Record a selected area of the desktop"
+msgstr "Kayıt Alanını Seçin"
+
+#: ../src/byzanzselect.c:367
+msgid "Record _Window"
+msgstr "Kayıt _Penceresini Seç"
+
+#: ../src/byzanzselect.c:367
+msgid "Record a selected window"
+msgstr "Kayıt Penceresini Seç"
+
+#: ../src/byzanzserialize.c:87
+msgid "Not a Byzanz recording"
+msgstr "Byzanz kaydı değil"
+
+#: ../src/byzanzserialize.c:93
+msgid "Unsupported byte order"
+msgstr "Desteklenmeyen bayt sıralaması"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:1
+msgid "Save filename"
+msgstr "Kayıt dosya adı"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:2
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr "Bir kayıt başlatılırken Byzanz'ın önereceği dosya adı için URI."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:3
+msgid "Recording method"
+msgstr "Kayıt yöntemi"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:4
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Kayıt için bu yöntemi öntanımlı olarak kullan. Tüm ekranı kaydetmek için "
+"\"ekran\", bir alanı seçmek için \"alan\", veya bir pencereyi seçmek için "
+"\"pencere\" olmalıdır."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:6
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Ayarlanırsa, Byzanz biçim destekliyorsa öntanımlı ses aygıtından ses "
+"kaydeder. Bu da kaydın yanında anlatıma izin verir."
+
+#: ../src/playback.c:35
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "kullanım: %s [SEÇENEKLER] İÇEDOSYA DIŞADOSYA\n"
+
+#: ../src/playback.c:36 ../src/record.c:70
+#, c-format
+msgid "       %s --help\n"
+msgstr "           %s --help\n"
+
+#: ../src/playback.c:72
+msgid "process a Byzanz debug recording"
+msgstr "bir Byzanz hata ayıklama kaydını işle"
+
+#: ../src/playback.c:79 ../src/record.c:179
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Hatalı Seçenek: %s\n"
+
+#: ../src/record.c:36
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Gösteri Zamanlaması (Standart: 10 Saniye)"
+
+#: ../src/record.c:36 ../src/record.c:38
+msgid "SECS"
+msgstr "SECS"
+
+#: ../src/record.c:37
+msgid "Command to execute and time"
+msgstr "Çalıştırılacak komut ve tarih"
+
+#: ../src/record.c:37
+msgid "COMMAND"
+msgstr "KOMUT"
+
+#: ../src/record.c:38
+msgid "Delay before start (default: 1 second)"
+msgstr "Başlamadan önce bekle (Standart: 1 Saniye)"
+
+#: ../src/record.c:39
+msgid "Record mouse cursor"
+msgstr "Fare imlecini kaydet"
+
+#: ../src/record.c:41
+msgid "X coordinate of rectangle to record"
+msgstr "Kayıt dörtgeninin X koordinatı"
+
+#: ../src/record.c:41 ../src/record.c:42 ../src/record.c:43 ../src/record.c:44
+msgid "PIXEL"
+msgstr "PIXEL"
+
+#: ../src/record.c:42
+msgid "Y coordinate of rectangle to record"
+msgstr "Kayıt dörtgeninin Y koordinatı"
+
+#: ../src/record.c:43
+msgid "Width of recording rectangle"
+msgstr "Kayıt dörtgenin genişliği"
+
+#: ../src/record.c:44
+msgid "Height of recording rectangle"
+msgstr "Kayıt dörtgenin yüksekliği"
+
+#: ../src/record.c:45
+msgid "Be verbose"
+msgstr "Detaylı ol"
+
+#: ../src/record.c:69
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "kullanımı: %s [SEÇENEK] dosyaadı\n"
+
+#: ../src/record.c:79
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "Kayıt sırasında hata: %s\n"
+
+#: ../src/record.c:85
+msgid "Recording done.\n"
+msgstr "Kayıt tamamlandı.\n"
+
+#: ../src/record.c:93
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Kayıt tamamlandı. Kodlama bitiriliyor...\n"
+
+#: ../src/record.c:105
+#, c-format
+msgid "Child exited with error %d\n"
+msgstr "Çoçuk %d hatasıyla çıkış yaptı\n"
+
+#: ../src/record.c:119
+#, c-format
+msgid "Invalid exec command: %s\n"
+msgstr "Geçersiz exec komutu: %s\n"
+
+#: ../src/record.c:127
+#, c-format
+msgid "Failed to execute: %s\n"
+msgstr "Yürütülemedi: %s\n"
+
+#: ../src/record.c:133
+msgid "Recording starts. Will record until child exits...\n"
+msgstr "Kayıt başlıyor. Alt süreç çıkana kadar kaydedilecek...\n"
+
+#: ../src/record.c:136
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Kayıt başlıyor. %d saniye içinde başlayacak...\n"
+
+#: ../src/record.c:171
+msgid "record your current desktop session"
+msgstr "geçerli masaüstü oturumunuzu kaydedin"
+
+#: ../src/record.c:188
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "Verilen alan masaüstü dahilinde değil.\n"
+
+#~ msgid "Directory to save in"
+#~ msgstr "Kaydedilecek dizin"
+
+#~ msgid ""
+#~ "If set, Byzanz will record the mouse cursor. While useful, recording the "
+#~ "mouse cursor results in bigger files and should therefore be used with "
+#~ "care."
+#~ msgstr ""
+#~ "Eğer Byzanz fare imlecimi kaydet'i seçerseniz, bu kullanışlı olur Ancak "
+#~ "büyük dosyalar oluşacaktır. Dikkatli kullanılmalı"
+
+#~ msgid ""
+#~ "This is the directory that Byzanz will default to when saving a file."
+#~ msgstr "Bu Byzanz'ın öntanımlı olarak dosya kaydetme dizinidir."
+
+#~ msgid "A file could not be saved."
+#~ msgstr "Dosya kaydedilemedi."
+
+#~ msgid ""
+#~ "\"%s\" could not be saved.\n"
+#~ "The error that occured was: %s"
+#~ msgstr ""
+#~ "\"%s\" kaydedilemedi.\n"
+#~ "Hata mesajı: %s"
+
+#~ msgid "Save Recorded File"
+#~ msgstr "Dosyayı Kaydet"
+
+#~ msgid "Record _Mouse Cursor"
+#~ msgstr "Fare İ_mlecini Kaydet"
+
+#~ msgid "Byzanz Factory"
+#~ msgstr "Byzanz Fabrikası"
+
+#~ msgid "Let the animation loop"
+#~ msgstr "Gösteri döngüsü sürsün"
+
+#~ msgid "Preparing recording. Will start in 1 second...\n"
+#~ msgstr "Kayda hazırlanıyor. 1 saniye içinde başlayacak...\n"
+
+#~ msgid ""
+#~ "Could not prepare recording.\n"
+#~ "Most likely the Damage extension is not available on the X server or the "
+#~ "file \"%s\" is not writable.\n"
+#~ msgstr ""
+#~ "Kayıt için hazırlanılamadı.\n"
+#~ "X sunucusu üzerinde uzantı sorunuvar ya da \"%s\" dosyası yazılabilir "
+#~ "değil.\n"

@@ -1,0 +1,278 @@
+# Slovenian translations for byzanz.
+# Copyright (C) 2009 byzanz's COPYRIGHT HOLDER
+# This file is distributed under the same license as the byzanz package.
+#
+# Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2009-2010.
+# Martin Srebotnjak <miles@filmsi.net>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=byzanz&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-09-26 01:16+0000\n"
+"PO-Revision-Date: 2013-09-27 00:02+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
+"Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: ../src/byzanzapplet.c:104 ../src/byzanzapplet.c:267
+msgid "Record your desktop"
+msgstr "Posnemite svoje namizje"
+
+#: ../src/byzanzapplet.c:105
+msgid "Select area to record"
+msgstr "Izbor območja snemanja"
+
+#: ../src/byzanzapplet.c:106
+msgid "End current recording"
+msgstr "Končaj trenutno snemanje"
+
+#: ../src/byzanzapplet.c:107
+msgid "Abort encoding of recording"
+msgstr "Preklic kodiranja snemanja"
+
+#: ../src/byzanzapplet.c:277
+msgid "All files"
+msgstr "Vse datoteke"
+
+#: ../src/byzanzapplet.c:293
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:5 ../src/record.c:42
+msgid "Record audio"
+msgstr "Posnemi zvok"
+
+#: ../src/byzanzapplet.c:361
+msgid "Desktop Session"
+msgstr "Namizna seja"
+
+#: ../src/byzanzapplet.c:364
+msgid "Record what's happening on your desktop"
+msgstr "Posnemite dogajanje na vašem namizju"
+
+#: ../src/byzanzapplet.c:366
+msgid "translator-credits"
+msgstr "Andrej Žnidaršič <andrej.znidarsic@gmail.com>"
+
+#: ../src/byzanzapplet.c:371
+msgid "_About"
+msgstr "_O programu"
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "Datoteke razhroščevanja byzanz"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:128
+msgid "This format does not support recording audio."
+msgstr "Zapis ne podpira snemanja zvoka"
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Flash video"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "Ni slike za kodiranje."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "Slike GIF"
+
+#: ../src/byzanzencodergstreamer.c:170
+msgid "Failed to start GStreamer pipeline"
+msgstr "Zagon cevovoda GStreamer je spodletel"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Theora video"
+
+#: ../src/byzanzencoderwebm.c:38
+msgid "WebM video"
+msgstr "WebM video"
+
+#: ../src/byzanzselect.c:365
+msgid "Record _Desktop"
+msgstr "Posnemi _namizje"
+
+#: ../src/byzanzselect.c:365
+msgid "Record the entire desktop"
+msgstr "Omogoči snemanje celotnega namizja"
+
+#: ../src/byzanzselect.c:367
+msgid "Record _Area"
+msgstr "Posnemi _območje"
+
+#: ../src/byzanzselect.c:367
+msgid "Record a selected area of the desktop"
+msgstr "Omogoči snemanje izbranega območja namizja"
+
+#: ../src/byzanzselect.c:369
+msgid "Record _Window"
+msgstr "Posnemi o_kno"
+
+#: ../src/byzanzselect.c:369
+msgid "Record a selected window"
+msgstr "Omogoči snemanje izbranega okna"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "Ni posnetek byzanz"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "Nepodprt vrstni red bajtov"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:1
+msgid "Save filename"
+msgstr "Shrani ime datoteke"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:2
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr "Predlagani naslov URI imena datoteke ob začetku snemanja."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:3
+msgid "Recording method"
+msgstr "Način snemanja"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:4
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Uporabi ta način kot privzet način snemanja. Način mora biti \"zaslon\" za "
+"snemanje celega zaslona, \"območje\" za izbor območja ali \"okno\" za izbor "
+"okna."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:6
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Izbrana možnost omogoči snemanje zvoka iz privzete zvočne naprave, če vrsta "
+"zapisa podpira snemanje zvoka. To omogoča pripovedovanje skupaj s snemanjem"
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "uporaba: %s [MOŽNOSTI | VHODNADATOTEKA IZHODADATOTEKA\n"
+
+#: ../src/playback.c:38 ../src/record.c:72
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --pomoč\n"
+
+#: ../src/playback.c:74
+msgid "process a Byzanz debug recording"
+msgstr "obdelava byzanz razhroščevalnega snemanja"
+
+#: ../src/playback.c:81 ../src/record.c:181
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Napačna možnost: %s\n"
+
+#: ../src/record.c:38
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Trajanje animacije (privzeto: 10 sekund)"
+
+#: ../src/record.c:38 ../src/record.c:40
+msgid "SECS"
+msgstr "SEKUND"
+
+#: ../src/record.c:39
+msgid "Command to execute and time"
+msgstr "Ukaz, ki naj se izvede, in čas"
+
+#: ../src/record.c:39
+msgid "COMMAND"
+msgstr "UKAZ"
+
+#: ../src/record.c:40
+msgid "Delay before start (default: 1 second)"
+msgstr "Časovni zamik pred začetkom (privzeto: 1 sekunda)"
+
+#: ../src/record.c:41
+msgid "Record mouse cursor"
+msgstr "Snemanje miškinega kazalca"
+
+#: ../src/record.c:43
+msgid "X coordinate of rectangle to record"
+msgstr "Koordinata X pravokotnika za snemanje"
+
+#: ../src/record.c:43 ../src/record.c:44 ../src/record.c:45 ../src/record.c:46
+msgid "PIXEL"
+msgstr "TOČKA"
+
+#: ../src/record.c:44
+msgid "Y coordinate of rectangle to record"
+msgstr "Koordinata Y pravokotnika za snemanje"
+
+#: ../src/record.c:45
+msgid "Width of recording rectangle"
+msgstr "Širina pravokotnika snemanja"
+
+#: ../src/record.c:46
+msgid "Height of recording rectangle"
+msgstr "Višina pravokotnika snemanja"
+
+#: ../src/record.c:47
+msgid "Be verbose"
+msgstr "Podrobni izpis"
+
+#: ../src/record.c:71
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "uporaba: %s [MOŽNOSTI] ime datoteke\n"
+
+#: ../src/record.c:81
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "Napaka med snemanjem: %s\n"
+
+#: ../src/record.c:87
+msgid "Recording done.\n"
+msgstr "Snemanje je končano.\n"
+
+#: ../src/record.c:95
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Snemanje je končano. Zaključevanje kodiranja ...\n"
+
+#: ../src/record.c:107
+#, c-format
+msgid "Child exited with error %d\n"
+msgstr "Podrejeni proces je končan z napako %d\n"
+
+#: ../src/record.c:121
+#, c-format
+msgid "Invalid exec command: %s\n"
+msgstr "Neveljaven izvajalni ukaz: %s\n"
+
+#: ../src/record.c:129
+#, c-format
+msgid "Failed to execute: %s\n"
+msgstr "Izvajanje je spodletelo: %s\n"
+
+#: ../src/record.c:135
+#| msgid "Recording starts. Will record %d seconds...\n"
+msgid "Recording starts. Will record until child exits...\n"
+msgstr "Snemanje se začenja. Snemanje bo potekalo do izhoda podrejenega procesa ...\n"
+
+#: ../src/record.c:138
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Snemanje se začenja. Posnetih bo %d sekund ...\n"
+
+#: ../src/record.c:173
+msgid "record your current desktop session"
+msgstr "snemanje vaše trenutne namizne seje"
+
+#: ../src/record.c:190
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "Podano območje ni znotraj namizja.\n"

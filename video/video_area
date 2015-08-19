@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+
+# ffmpeg is used to record video and convert to webm
+# xrectsel is used to get coordinates where to record
+
+#HOW TO USE
+
+#   run video_area
+#   select area by dragging a rectangle with the mouse
+#   records the area for 10 seconds
+#   find the done mp4 and webm in your ~/Pictures/screenshots/
+
+# you can pass arguments
+
+# video_area 30
+# records for 30 seconds
+
+# video_area 19 testing
+# records for 19 seconds, files will be named testing.mp4 and testing.webm
+
+delay=3
+shot=~/Pictures/screenshots/vid_$(date +%s)
+
+if [ $# -gt 1 ]; then
+    dur="$1"
+    shot=~/Pictures/screenshots/$2
+elif [ $# -gt 0 ]; then
+    dur="$1"
+else
+    dur="10"
+fi
+
+# xrectsel from https://github.com/lolilolicon/xrectsel
+# get desired rectangle's dimensions and coordinates using xrectsel
+rectange=$(xrectsel)
+
+# split rectange results in to array by '+' sign
+rect_array=(${rectange//+/ })
+rect_dimensions=${rect_array[0]}
+rect_x=${rect_array[1]}
+rect_y=${rect_array[2]}
+
+for (( i=$delay; i>0; --i )) ; do
+    echo $i
+    sleep 1
+done
+
+# use ffmpeg to make video recording of the desktop
+ffmpeg -video_size $rect_dimensions -framerate 25 -f x11grab -i :0+$rect_x,$rect_y -t $dur $shot.mp4
+
+# use ffmpeg to convert mp4 to webm
+ffmpeg -i $shot.mp4 -an -qmax 40 -threads 2 $shot.webm

@@ -1,0 +1,37 @@
+.\" Manual page for byzanz-playback.
+.\" Written by Benjamin Otte <otte@gnome.org>
+.\"
+.\" Copyright (C) 2010 Benjamin Otte
+.\"
+.\" This manual page is free software; you can redistribute it and/or
+.\" modify it under the terms of the GNU Library General Public
+.\" License as published by the Free Software Foundation; either
+.\" version 3 of the License, or (at your option) any later version.
+.\"
+.\" This manual page is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+.\" Library General Public License for more details.
+.TH BYZANZ-PLAYBACK "1"
+.SH NAME
+byzanz-playback \- Process a byzanz debug recording
+.SH SYNOPSIS
+.B byzanz-playback
+.RI [ options ] " INFILE OUTFILE"
+.SH DESCRIPTION
+Byzanz debug recording can be created by using the extension \fI.byzanz\fP.
+To convert these recordings into the other formats supported by Byzanz,
+\fBbyzanz-playback\fP can be used. The INFILE must be a byzanz debug file,
+the OUTFILE is the file to convert it to. Its extension determines the
+format to be used. See the \fBbyzanz-record\fP(1) man page for a list of
+supported formats and their extensions.
+.SH OPTIONS
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+Show brief help.
+.SH SEE ALSO
+\fBbyzanz-record\fR(1)
+.SH AUTHOR
+Byzanz was written by Benjamin Otte <otte@gnome.org>.
+.PP
+This manual page was last updated for version 0.2.1.

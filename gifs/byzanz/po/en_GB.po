@@ -1,0 +1,208 @@
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same licence as the byzanz package.
+# David Lodge <dave@cirt.net>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-04-22 07:18+0100\n"
+"PO-Revision-Date: 2007-04-29 09:03-0000\n"
+"Last-Translator: David Lodge <dave@cirt.net>\n"
+"Language-Team: en_GB <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/byzanz.schemas.in.h:1
+msgid "Directory to save in"
+msgstr "Directory to save in"
+
+#: ../src/byzanz.schemas.in.h:2
+msgid "If set, Byzanz will record the mouse cursor. While useful, recording the mouse cursor results in bigger files and should therefore be used with care."
+msgstr "If set, Byzanz will record the mouse cursor. While useful, recording the mouse cursor results in bigger files and should therefore be used with care."
+
+#: ../src/byzanz.schemas.in.h:3
+#: ../src/record.c:39
+msgid "Record mouse cursor"
+msgstr "Record mouse cursor"
+
+#: ../src/byzanz.schemas.in.h:4
+msgid "Recording method"
+msgstr "Recording method"
+
+#: ../src/byzanz.schemas.in.h:5
+msgid "This is the directory that Byzanz will default to when saving a file."
+msgstr "This is the directory that Byzanz will default to when saving a file."
+
+#: ../src/byzanz.schemas.in.h:6
+msgid "Use this method as the default method for recording. Must be one of \"screen\" for recording the whole screen, \"area\" for selecting an area or \"window\" to select a window."
+msgstr "Use this method as the default method for recording. Must be one of \"screen\" for recording the whole screen, \"area\" for selecting an area or \"window\" to select a window."
+
+#: ../src/byzanzapplet.c:110
+msgid "A file could not be saved."
+msgstr "A file could not be saved."
+
+#: ../src/byzanzapplet.c:111
+#, c-format
+msgid ""
+"\"%s\" could not be saved.\n"
+"The error that occured was: %s"
+msgstr ""
+"\"%s\" could not be saved.\n"
+"The error that occured was: %s"
+
+#: ../src/byzanzapplet.c:175
+msgid "Save Recorded File"
+msgstr "Save Recorded File"
+
+#: ../src/byzanzapplet.c:224
+msgid "Stop current recording"
+msgstr "Stop current recording"
+
+#: ../src/byzanzapplet.c:258
+msgid "Cannot start recording."
+msgstr "Cannot start recording."
+
+#: ../src/byzanzapplet.c:259
+#: ../src/record.c:131
+#, c-format
+msgid "Byzanz requires a 24bpp or 32bpp depth for recording. The current resolution is set to %dbpp."
+msgstr "Byzanz requires a 24bpp or 32bpp depth for recording. The current resolution is set to %dbpp."
+
+#: ../src/byzanzapplet.c:369
+#: ../src/ByzanzApplet.server.in.in.h:2
+msgid "Desktop Recorder"
+msgstr "Desktop Recorder"
+
+#: ../src/byzanzapplet.c:372
+#: ../src/ByzanzApplet.server.in.in.h:3
+msgid "Record what's happening on your desktop"
+msgstr "Record what's happening on your desktop"
+
+#: ../src/byzanzapplet.c:374
+msgid "translator-credits"
+msgstr "David Lodge <dave@cirt.net>"
+
+#: ../src/byzanzapplet.c:441
+msgid "Record _Mouse Cursor"
+msgstr "Record _Mouse Cursor"
+
+#: ../src/byzanzapplet.xml.h:1
+msgid "_About"
+msgstr "_About"
+
+#: ../src/byzanzselect.c:312
+msgid "Record _Desktop"
+msgstr "Record _Desktop"
+
+#: ../src/byzanzselect.c:312
+msgid "Record the entire desktop"
+msgstr "Record the entire desktop"
+
+#: ../src/byzanzselect.c:314
+msgid "Record _Area"
+msgstr "Record _Area"
+
+#: ../src/byzanzselect.c:314
+msgid "Record a selected area of the desktop"
+msgstr "Record a selected area of the desktop"
+
+#: ../src/byzanzselect.c:316
+msgid "Record _Window"
+msgstr "Record _Window"
+
+#: ../src/byzanzselect.c:316
+msgid "Record a selected window"
+msgstr "Record a selected window"
+
+#: ../src/ByzanzApplet.server.in.in.h:1
+msgid "Byzanz Factory"
+msgstr "Byzanz Factory"
+
+#: ../src/record.c:36
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Duration of animation (default: 10 seconds)"
+
+#: ../src/record.c:36
+#: ../src/record.c:37
+msgid "SECS"
+msgstr "SECS"
+
+#: ../src/record.c:37
+msgid "Delay before start (default: 1 second)"
+msgstr "Delay before start (default: 1 second)"
+
+#: ../src/record.c:38
+msgid "Let the animation loop"
+msgstr "Let the animation loop"
+
+#: ../src/record.c:40
+msgid "X coordinate of rectangle to record"
+msgstr "X co-ordinate of rectangle to record"
+
+#: ../src/record.c:40
+#: ../src/record.c:41
+#: ../src/record.c:42
+#: ../src/record.c:43
+msgid "PIXEL"
+msgstr "PIXEL"
+
+#: ../src/record.c:41
+msgid "Y coordinate of rectangle to record"
+msgstr "Y co-ordinate of rectangle to record"
+
+#: ../src/record.c:42
+msgid "Width of recording rectangle"
+msgstr "Width of recording rectangle"
+
+#: ../src/record.c:43
+msgid "Height of recording rectangle"
+msgstr "Height of recording rectangle"
+
+#: ../src/record.c:44
+msgid "Be verbose"
+msgstr "Be verbose"
+
+#: ../src/record.c:66
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "usage: %s [OPTIONS] filename\n"
+
+#: ../src/record.c:67
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/record.c:73
+msgid "Recording done. Cleaning up...\n"
+msgstr "Recording done. Cleaning up...\n"
+
+#: ../src/record.c:83
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Recording starts. Will record %d seconds...\n"
+
+#: ../src/record.c:93
+msgid "Preparing recording. Will start in 1 second...\n"
+msgstr "Preparing recording. Will start in 1 second...\n"
+
+#: ../src/record.c:116
+msgid "record your current desktop session"
+msgstr "record your current desktop session"
+
+#: ../src/record.c:120
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Wrong option: %s\n"
+
+#: ../src/record.c:138
+#, c-format
+msgid ""
+"Could not prepare recording.\n"
+"Most likely the Damage extension is not available on the X server or the file \"%s\" is not writable.\n"
+msgstr ""
+"Could not prepare recording.\n"
+"Most likely the Damage extension is not available on the X server or the file \"%s\" is not writable.\n"
+

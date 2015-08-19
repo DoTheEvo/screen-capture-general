@@ -1,0 +1,232 @@
+# Arabic translations for THIS package.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as THIS package.
+# Automatically generated, 2007.
+# Djihed Afifi <djihed@gmail.com>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: Arabic\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
+"POT-Creation-Date: 2008-07-31 10:44+0100\n"
+"PO-Revision-Date: 2007-04-14 18:49+0100\n"
+"Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
+"Language-Team: Arabeyes <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/byzanz.schemas.in.h:1
+#, fuzzy
+msgid "Directory to save in"
+msgstr "لوح الدليل"
+
+#: ../src/byzanz.schemas.in.h:2
+msgid ""
+"If set, Byzanz will record the mouse cursor. While useful, recording the "
+"mouse cursor results in bigger files and should therefore be used with care."
+msgstr ""
+
+#: ../src/byzanz.schemas.in.h:3 ../src/record.c:39
+#, fuzzy
+msgid "Record mouse cursor"
+msgstr "سجّل قطع صوتية"
+
+#: ../src/byzanz.schemas.in.h:4
+#, fuzzy
+msgid "Recording method"
+msgstr "يجري التسجيل"
+
+#: ../src/byzanz.schemas.in.h:5
+msgid "This is the directory that Byzanz will default to when saving a file."
+msgstr ""
+
+#: ../src/byzanz.schemas.in.h:6
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+
+#: ../src/byzanzapplet.c:110
+#, fuzzy
+msgid "A file could not be saved."
+msgstr "تعذر حفظ الصورة."
+
+#: ../src/byzanzapplet.c:111
+#, c-format
+msgid ""
+"\"%s\" could not be saved.\n"
+"The error that occured was: %s"
+msgstr ""
+
+#: ../src/byzanzapplet.c:175
+#, fuzzy
+msgid "Save Recorded File"
+msgstr "احفظ ملف"
+
+#: ../src/byzanzapplet.c:224
+#, fuzzy
+msgid "Stop current recording"
+msgstr "أوقف العملية الحالية"
+
+#: ../src/byzanzapplet.c:258
+#, fuzzy
+msgid "Cannot start recording."
+msgstr "لا يمكن بدأ تشغيل الشاشة الجديدة"
+
+#: ../src/byzanzapplet.c:259 ../src/record.c:135
+#, c-format
+msgid ""
+"Byzanz requires a 24bpp or 32bpp depth for recording. The current resolution "
+"is set to %dbpp."
+msgstr ""
+
+#: ../src/byzanzapplet.c:369 ../src/ByzanzApplet.server.in.in.h:2
+#, fuzzy
+msgid "Desktop Recorder"
+msgstr "أيقونة المكتب"
+
+#: ../src/byzanzapplet.c:372 ../src/ByzanzApplet.server.in.in.h:3
+#, fuzzy
+msgid "Record what's happening on your desktop"
+msgstr "ابحث عن البيانات على سطح مكتبك"
+
+#: ../src/byzanzapplet.c:374
+#, fuzzy
+msgid "translator-credits"
+msgstr "المترجمون:"
+
+#: ../src/byzanzapplet.c:441
+msgid "Record _Mouse Cursor"
+msgstr ""
+
+#: ../src/byzanzapplet.xml.h:1
+#, fuzzy
+msgid "_About"
+msgstr "_6 عن البرنامج"
+
+#: ../src/byzanzselect.c:312
+#, fuzzy
+msgid "Record _Desktop"
+msgstr "سطح مكتب بعيد"
+
+#: ../src/byzanzselect.c:312
+#, fuzzy
+msgid "Record the entire desktop"
+msgstr "اختر كامل المستند"
+
+#: ../src/byzanzselect.c:314
+#, fuzzy
+msgid "Record _Area"
+msgstr "سجّل ك:"
+
+#: ../src/byzanzselect.c:314
+#, fuzzy
+msgid "Record a selected area of the desktop"
+msgstr "انتقي سِمة لسطح المكتب"
+
+#: ../src/byzanzselect.c:316
+#, fuzzy
+msgid "Record _Window"
+msgstr "ناف_ذة جديدة"
+
+#: ../src/byzanzselect.c:316
+#, fuzzy
+msgid "Record a selected window"
+msgstr "انشيء نافذة"
+
+#: ../src/ByzanzApplet.server.in.in.h:1
+#, fuzzy
+msgid "Byzanz Factory"
+msgstr "معاين واندا"
+
+#: ../src/record.c:36
+#, fuzzy
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "محرّر الإعدادات (التعيينات الافتراضيّة)"
+
+#: ../src/record.c:36 ../src/record.c:37
+#, fuzzy
+msgid "SECS"
+msgstr "SCSI"
+
+#: ../src/record.c:37
+msgid "Delay before start (default: 1 second)"
+msgstr ""
+
+#: ../src/record.c:38
+#, fuzzy
+msgid "Let the animation loop"
+msgstr "استعمل صور متحركة سريعة"
+
+#: ../src/record.c:40
+#, fuzzy
+msgid "X coordinate of rectangle to record"
+msgstr "إحداثي الشريط السيني"
+
+#: ../src/record.c:40 ../src/record.c:41 ../src/record.c:42 ../src/record.c:43
+#, fuzzy
+msgid "PIXEL"
+msgstr "شريط"
+
+#: ../src/record.c:41
+#, fuzzy
+msgid "Y coordinate of rectangle to record"
+msgstr "إحداثي الشريط الصادي"
+
+#: ../src/record.c:42
+#, fuzzy
+msgid "Width of recording rectangle"
+msgstr "مستطيل الانتقاء"
+
+#: ../src/record.c:43
+#, fuzzy
+msgid "Height of recording rectangle"
+msgstr "ارتفاع عرض الصورة"
+
+#: ../src/record.c:44
+#, fuzzy
+msgid "Be verbose"
+msgstr "كن أكثر إسهاباً"
+
+#: ../src/record.c:66
+#, fuzzy, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "الإستخدام: %s [<اسم-الملف-الشخصي>]\n"
+
+#: ../src/record.c:67
+#, fuzzy, c-format
+msgid "       %s --help\n"
+msgstr "         "
+
+#: ../src/record.c:73
+#, fuzzy
+msgid "Recording done. Cleaning up...\n"
+msgstr "جاري التسجيل والعرض"
+
+#: ../src/record.c:83
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr ""
+
+#: ../src/record.c:93
+msgid "Preparing recording. Will start in 1 second...\n"
+msgstr ""
+
+#: ../src/record.c:116
+#, fuzzy
+msgid "record your current desktop session"
+msgstr "نهاية الجلسة الحالية"
+
+#: ../src/record.c:124
+#, fuzzy, c-format
+msgid "Wrong option: %s\n"
+msgstr "خيارات التَّحذير"
+
+#: ../src/record.c:142
+#, c-format
+msgid ""
+"Could not prepare recording.\n"
+"Most likely the Damage extension is not available on the X server or the "
+"file \"%s\" is not writable.\n"
+msgstr ""

@@ -1,0 +1,245 @@
+# Romanian translation for byzanz.
+# Copyright (C) 2010 byzanz's COPYRIGHT HOLDER
+# This file is distributed under the same license as the byzanz package.
+# Cristian Iacobescu <cristy_hereg93@yahoo.com>, 2010.
+# Iacobescu Cristian <cristy_hereg93@yahoo.com>, 2010.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz master\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=byzanz&component=general\n"
+"POT-Creation-Date: 2010-11-19 13:10+0000\n"
+"PO-Revision-Date: 2010-12-05 02:13+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+
+#: ../src/byzanz.schemas.in.h:1
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Dacă este definit, Byzanz va înregistra sunetul de la dispozitivul audio "
+"implicit în cazul în care formatul este suportat. Acest lucru permite "
+"nararea odată cu înregistrarea."
+
+#: ../src/byzanz.schemas.in.h:2 ../src/byzanzapplet.c:294 ../src/record.c:40
+msgid "Record audio"
+msgstr "Înregistrează audio"
+
+#: ../src/byzanz.schemas.in.h:3
+msgid "Recording method"
+msgstr "Metodă de înregistrare"
+
+#: ../src/byzanz.schemas.in.h:4
+msgid "Save filename"
+msgstr "Salvează nume fișier"
+
+#: ../src/byzanz.schemas.in.h:5
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr ""
+"URI pentru numele fișierului Byzanz va sugera când începe înregistrarea."
+
+#: ../src/byzanz.schemas.in.h:6
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Utilizează această metodă ca metodă implicită pentru înregistrare. Trebuie "
+"să fie una de „screen” pentru înregistrarea întregului ecran, „area” pentru "
+"selectarea unei zone sau „window” pentru a selecta o fereastră."
+
+#: ../src/byzanzapplet.c:103 ../src/byzanzapplet.c:268
+msgid "Record your desktop"
+msgstr "Înregistrează desktopul"
+
+#: ../src/byzanzapplet.c:104
+msgid "Select area to record"
+msgstr "Selectează zona de înregistrat"
+
+#: ../src/byzanzapplet.c:105
+msgid "End current recording"
+msgstr "Oprește înregistrarea curentă"
+
+#: ../src/byzanzapplet.c:106
+msgid "Abort encoding of recording"
+msgstr "Întrerupe codarea înregistrării"
+
+#: ../src/byzanzapplet.c:278
+msgid "All files"
+msgstr "Toate fișierele"
+
+#: ../src/byzanzapplet.c:368
+msgid "Desktop Session"
+msgstr "Sesiune de desktop"
+
+#: ../src/byzanzapplet.c:371
+msgid "Record what's happening on your desktop"
+msgstr "Înregistrează ce se întâmplă pe desktop"
+
+#: ../src/byzanzapplet.c:373
+msgid "translator-credits"
+msgstr "Cristi Iacobescu <cristy_hereg93@yahoo.com>"
+
+#: ../src/byzanzapplet.c:378
+msgid "_About"
+msgstr "_Despre"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:118
+msgid "This format does not support recording audio."
+msgstr "Acest format nu suportă înregistrarea audio."
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "Fișiere de depanare Byzanz"
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Video Flash"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "Nicio imagine de codat."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "Imagini GIF"
+
+#: ../src/byzanzencodergstreamer.c:156
+msgid "Failed to start GStreamer pipeline"
+msgstr "Pornirea liniei de asamblare GStreamer a eșuat"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Video Theora"
+
+#: ../src/byzanzselect.c:354
+msgid "Record _Desktop"
+msgstr "Înregistrează _desktopul"
+
+#: ../src/byzanzselect.c:354
+msgid "Record the entire desktop"
+msgstr "Înregistrează întregul desktop"
+
+#: ../src/byzanzselect.c:356
+msgid "Record _Area"
+msgstr "Înregistrează _zona"
+
+#: ../src/byzanzselect.c:356
+msgid "Record a selected area of the desktop"
+msgstr "Înregistrează zona selectată de pe desktop"
+
+#: ../src/byzanzselect.c:358
+msgid "Record _Window"
+msgstr "Înregistrează _fereastra"
+
+#: ../src/byzanzselect.c:358
+msgid "Record a selected window"
+msgstr "Înregistrează o fereastră selectată"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "Nu este o înregistrare Byzanz"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "Ordine de octeți nesuportată"
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "utilizare: %s [OPȚIUNI] INFILE OUTFILE\n"
+
+#: ../src/playback.c:38 ../src/record.c:68
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/playback.c:77
+msgid "process a Byzanz debug recording"
+msgstr "procesează o depanare a înregistrării Byzanz"
+
+#: ../src/playback.c:84 ../src/record.c:140
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Opțiune greșită: %s\n"
+
+#: ../src/record.c:37
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Durata animației (implicit: 10 secunde)"
+
+#: ../src/record.c:37 ../src/record.c:38
+msgid "SECS"
+msgstr "SECUNDE"
+
+#: ../src/record.c:38
+msgid "Delay before start (default: 1 second)"
+msgstr "Întârzierea înainte de start (implicit: 1 secundă)"
+
+#: ../src/record.c:39
+msgid "Record mouse cursor"
+msgstr "Înregistrează cursorul mausului"
+
+#: ../src/record.c:41
+msgid "X coordinate of rectangle to record"
+msgstr "Coordonata X a dreptunghiului de înregistrat"
+
+#: ../src/record.c:41 ../src/record.c:42 ../src/record.c:43 ../src/record.c:44
+msgid "PIXEL"
+msgstr "PIXEL"
+
+#: ../src/record.c:42
+msgid "Y coordinate of rectangle to record"
+msgstr "coordonata Y a dreptunghiului de înregistrat"
+
+#: ../src/record.c:43
+msgid "Width of recording rectangle"
+msgstr "Lățimea dreptunghiului de înregistrat"
+
+#: ../src/record.c:44
+msgid "Height of recording rectangle"
+msgstr "Înălțimea dreptunghiului de înregistrat"
+
+#: ../src/record.c:45
+msgid "Be verbose"
+msgstr "Mod detaliat"
+
+#: ../src/record.c:67
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "utilizare: %s [OPȚIUNI] nume fișier\n"
+
+#: ../src/record.c:77
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "Eroare în timpul înregistrării: %s\n"
+
+#: ../src/record.c:83
+msgid "Recording done.\n"
+msgstr "Înregistrare terminată.\n"
+
+#: ../src/record.c:91
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Înregistrarea a ajuns la final. Se termină de codat...\n"
+
+#: ../src/record.c:100
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Înregistrarea a început. Se vor înregistra %d secunde...\n"
+
+#: ../src/record.c:132
+msgid "record your current desktop session"
+msgstr "înregistrează sesiunea curentă a desktopului"
+
+#: ../src/record.c:149
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "Zona indicată nu este în interiorul desktopului.\n"

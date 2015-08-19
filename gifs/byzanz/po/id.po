@@ -1,0 +1,278 @@
+# Translation of byzanz into Indonesian
+# Copyright (C) 2009 THE byzanz'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the byzanz package.
+# Imam Musthaqim <userindesign@gmail.com>, 2009.
+# Andika Triwidada <andika@gmail.com>, 2010, 2012, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=byzanz&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-09-23 13:29+0000\n"
+"PO-Revision-Date: 2013-10-14 08:38+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: ../src/byzanzapplet.c:104 ../src/byzanzapplet.c:267
+msgid "Record your desktop"
+msgstr "Rekam desktop Anda"
+
+#: ../src/byzanzapplet.c:105
+msgid "Select area to record"
+msgstr "Pilih wilayah untuk direkam"
+
+#: ../src/byzanzapplet.c:106
+msgid "End current recording"
+msgstr "Hentikan perekaman saat ini"
+
+#: ../src/byzanzapplet.c:107
+msgid "Abort encoding of recording"
+msgstr "Gugurkan pengkodean rekaman"
+
+#: ../src/byzanzapplet.c:277
+msgid "All files"
+msgstr "Semua berkas"
+
+#: ../src/byzanzapplet.c:293
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:5 ../src/record.c:42
+msgid "Record audio"
+msgstr "Rekam suara"
+
+#: ../src/byzanzapplet.c:361
+msgid "Desktop Session"
+msgstr "Sesi Desktop"
+
+#: ../src/byzanzapplet.c:364
+msgid "Record what's happening on your desktop"
+msgstr "Merekam apa yang terjadi pada desktop Anda"
+
+#: ../src/byzanzapplet.c:366
+msgid "translator-credits"
+msgstr ""
+"Imam Musthaqim <userindesign@gmail.com>, 2009.\n"
+"Andika Triwidada <andika@gmail.com>, 2010, 2012, 2013."
+
+#: ../src/byzanzapplet.c:371
+msgid "_About"
+msgstr "_Tentang"
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "Berkas awa kutu Byzanz"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:128
+msgid "This format does not support recording audio."
+msgstr "Bentuk ini tidak mendukung perekaman suara."
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Video flash"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "Tidak ada citra untuk diencode."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "Citra GIF"
+
+#: ../src/byzanzencodergstreamer.c:170
+msgid "Failed to start GStreamer pipeline"
+msgstr "Gagal memulai pipeline GStreamer"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Video Theora"
+
+#: ../src/byzanzencoderwebm.c:38
+msgid "WebM video"
+msgstr "Video WebM"
+
+#: ../src/byzanzselect.c:365
+msgid "Record _Desktop"
+msgstr "Rekam _Desktop"
+
+#: ../src/byzanzselect.c:365
+msgid "Record the entire desktop"
+msgstr "Rekam seluruh desktop"
+
+#: ../src/byzanzselect.c:367
+msgid "Record _Area"
+msgstr "Rekam _Area"
+
+#: ../src/byzanzselect.c:367
+msgid "Record a selected area of the desktop"
+msgstr "Rekam area desktop yang dipilih"
+
+#: ../src/byzanzselect.c:369
+msgid "Record _Window"
+msgstr "Rekam _Jendela"
+
+#: ../src/byzanzselect.c:369
+msgid "Record a selected window"
+msgstr "Rekam jendela yang dipilih"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "Bukan suatu rekaman Byzanz"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "Urutan byte tak didukung"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:1
+msgid "Save filename"
+msgstr "Nama berkas penyimpanan"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:2
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr ""
+"URI bagi nama berkas yang akan disarankan Byzanz ketika memulai suatu "
+"rekaman."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:3
+msgid "Recording method"
+msgstr "Metoda perekaman"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:4
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Gunakan metode ini sebagai metode default untuk perekaman. Harus ada salah "
+"satu \"layar\"  untuk merekam seluruh layar, \"area\" untuk memilih suatu "
+"area atau \"jendela\" untuk memilih suatu jendela."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:6
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Bila ditata, Byzanz akan merekam suara dari perangkat suara bawaan bila "
+"bentuk mendukungnya. Ini memungkinkan narasi berbarengan dengan perekaman."
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "penggunaan: %s [OPSI] BERKAS_MASUK BERKAS_KELUAR\n"
+
+#: ../src/playback.c:38 ../src/record.c:72
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --bantuan\n"
+
+#: ../src/playback.c:74
+msgid "process a Byzanz debug recording"
+msgstr "proses suatu rekaman awa kutu Byzanz"
+
+#: ../src/playback.c:81 ../src/record.c:181
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Opsi salah: %s\n"
+
+#: ../src/record.c:38
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Durasi animasi (default: 10 detik)"
+
+#: ../src/record.c:38 ../src/record.c:40
+msgid "SECS"
+msgstr "SECS"
+
+#: ../src/record.c:39
+msgid "Command to execute and time"
+msgstr "Perintah yang akan dijalankan dan waktu"
+
+#: ../src/record.c:39
+msgid "COMMAND"
+msgstr "PERINTAH"
+
+#: ../src/record.c:40
+msgid "Delay before start (default: 1 second)"
+msgstr "Tunda sebelum memulai (default: 1 detik)"
+
+#: ../src/record.c:41
+msgid "Record mouse cursor"
+msgstr "Rekam kursor mouse"
+
+#: ../src/record.c:43
+msgid "X coordinate of rectangle to record"
+msgstr "Koordinat X dari kotak untuk merekam"
+
+#: ../src/record.c:43 ../src/record.c:44 ../src/record.c:45 ../src/record.c:46
+msgid "PIXEL"
+msgstr "PIXEL"
+
+#: ../src/record.c:44
+msgid "Y coordinate of rectangle to record"
+msgstr "Koordinat Y dari kotak untuk merekam"
+
+#: ../src/record.c:45
+msgid "Width of recording rectangle"
+msgstr "Lebar kotak rekaman"
+
+#: ../src/record.c:46
+msgid "Height of recording rectangle"
+msgstr "Tinggi kotak rekaman"
+
+#: ../src/record.c:47
+msgid "Be verbose"
+msgstr "Uraikanlah"
+
+#: ../src/record.c:71
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "penggunaan: %s [OPSI] nama file\n"
+
+#: ../src/record.c:81
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "Galat saat perekaman: %s\n"
+
+#: ../src/record.c:87
+msgid "Recording done.\n"
+msgstr "Perekaman selesai.\n"
+
+#: ../src/record.c:95
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Perekaman selesai. Menuntaskan pengkodean...\n"
+
+#: ../src/record.c:107
+#, c-format
+msgid "Child exited with error %d\n"
+msgstr "Anak keluar dengan galat %d\n"
+
+#: ../src/record.c:121
+#, c-format
+msgid "Invalid exec command: %s\n"
+msgstr "Perintah exec tak valid: %s\n"
+
+#: ../src/record.c:129
+#, c-format
+msgid "Failed to execute: %s\n"
+msgstr "Gagal mengeksekusi: %s\n"
+
+#: ../src/record.c:135
+msgid "Recording starts. Will record until child exits...\n"
+msgstr "Perekaman dimulai. Akan merekam sampai anak keluar...\n"
+
+#: ../src/record.c:138
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Perekaman dimulai. Akan merekam selama %d detik...\n"
+
+#: ../src/record.c:173
+msgid "record your current desktop session"
+msgstr "rekam sesi desktop Anda saat ini"
+
+#: ../src/record.c:190
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "Wilayah yang diberikan tidak di dalam desktop.\n"

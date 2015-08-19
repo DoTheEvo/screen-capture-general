@@ -1,0 +1,282 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# gnomepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
+"POT-Creation-Date: 2013-09-23 22:08+0200\n"
+"PO-Revision-Date: 2012-09-23 22:10+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <gnomepl@aviary.pl>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: Poland\n"
+
+#: ../src/byzanzapplet.c:104 ../src/byzanzapplet.c:267
+msgid "Record your desktop"
+msgstr "Nagrywanie pulpitu"
+
+#: ../src/byzanzapplet.c:105
+msgid "Select area to record"
+msgstr "Wybór obszaru do nagrania"
+
+#: ../src/byzanzapplet.c:106
+msgid "End current recording"
+msgstr "Kończy bieżące nagrywanie"
+
+#: ../src/byzanzapplet.c:107
+msgid "Abort encoding of recording"
+msgstr "Przerywa kodowanie nagrania"
+
+#: ../src/byzanzapplet.c:277
+msgid "All files"
+msgstr "Wszystkie pliki"
+
+#: ../src/byzanzapplet.c:293
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:5 ../src/record.c:42
+msgid "Record audio"
+msgstr "Nagrywanie dźwięku"
+
+#: ../src/byzanzapplet.c:361
+msgid "Desktop Session"
+msgstr "Sesja pulpitu"
+
+#: ../src/byzanzapplet.c:364
+msgid "Record what's happening on your desktop"
+msgstr "Nagrywa to, co dzieje się na pulpicie użytkownika."
+
+#: ../src/byzanzapplet.c:366
+msgid "translator-credits"
+msgstr ""
+"Aviary.pl <gnomepl@aviary.pl>, 2008, 2012\n"
+"Piotr Makowski <pzaryk@aviary.pl>, 2008"
+
+#: ../src/byzanzapplet.c:371
+msgid "_About"
+msgstr "_O programie"
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "Pliki debugowania programu Byzanz"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:128
+msgid "This format does not support recording audio."
+msgstr "Ten format nie obsługuje nagrywania dźwięku."
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Wideo Flash"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "Brak obrazu do kodowania."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "Obrazy GIF"
+
+#: ../src/byzanzencodergstreamer.c:170
+msgid "Failed to start GStreamer pipeline"
+msgstr "Rozpoczęcie potoku biblioteki GStreamer się nie powiodło"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Wideo Theora"
+
+#: ../src/byzanzencoderwebm.c:38
+msgid "WebM video"
+msgstr "Wideo WebM"
+
+#: ../src/byzanzselect.c:365
+msgid "Record _Desktop"
+msgstr "Nagraj p_ulpit"
+
+#: ../src/byzanzselect.c:365
+msgid "Record the entire desktop"
+msgstr "Nagrywa cały pulpit"
+
+#: ../src/byzanzselect.c:367
+msgid "Record _Area"
+msgstr "Nagraj _obszar"
+
+#: ../src/byzanzselect.c:367
+msgid "Record a selected area of the desktop"
+msgstr "Nagrywa zaznaczony obszar pulpitu"
+
+#: ../src/byzanzselect.c:369
+msgid "Record _Window"
+msgstr "Nagraj o_kno"
+
+#: ../src/byzanzselect.c:369
+msgid "Record a selected window"
+msgstr "Nagrywa wybrane okno"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "Nie jest nagraniem programu Byzanz"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "Nieobsługiwana kolejność bajtów"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:1
+msgid "Save filename"
+msgstr "Nazwa zapisanego pliku"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:2
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr ""
+"Adres URI dla nazwy pliku sugerowanej przez program Byzanz podczas "
+"rozpoczynania nagrywania."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:3
+msgid "Recording method"
+msgstr "Metoda nagrywania"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:4
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Użycie tej metody jako domyślnej metody nagrywania. Do wyboru: \"screen\" "
+"dla nagrywania całego ekranu, \"area\" dla zaznaczenia obszaru lub \"window"
+"\" dla zaznaczenia okna."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:6
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Jeśli jest ustawione, to program Byzanz będzie nagrywał dźwięk z domyślnego "
+"urządzenia dźwiękowego, jeśli dany format go obsługuje. Umożliwia to "
+"nagrywanie narracji."
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "użycie: %s [OPCJE] PLIK-WEJŚCIOWY PLIK-WYJŚCIOWY\n"
+
+#: ../src/playback.c:38 ../src/record.c:72
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/playback.c:74
+msgid "process a Byzanz debug recording"
+msgstr "przetwarza nagranie debugowania programu Byzanz"
+
+#: ../src/playback.c:81 ../src/record.c:181
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Błędna opcja: %s\n"
+
+#: ../src/record.c:38
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Czas trwania animacji (domyślnie 10 sekund)"
+
+#: ../src/record.c:38 ../src/record.c:40
+msgid "SECS"
+msgstr "SEKUND"
+
+#: ../src/record.c:39
+msgid "Command to execute and time"
+msgstr "Polecenie do wykonania i czas"
+
+#: ../src/record.c:39
+msgid "COMMAND"
+msgstr "POLECENIE"
+
+#: ../src/record.c:40
+msgid "Delay before start (default: 1 second)"
+msgstr "Opóźnienie przed rozpoczęciem (domyślnie 1 sekunda)"
+
+#: ../src/record.c:41
+msgid "Record mouse cursor"
+msgstr "Nagrywanie kursora myszy"
+
+#: ../src/record.c:43
+msgid "X coordinate of rectangle to record"
+msgstr "Współrzędna X prostokąta do nagrania"
+
+#: ../src/record.c:43 ../src/record.c:44 ../src/record.c:45 ../src/record.c:46
+msgid "PIXEL"
+msgstr "PIKSELI"
+
+#: ../src/record.c:44
+msgid "Y coordinate of rectangle to record"
+msgstr "Współrzędna Y prostokąta do nagrania"
+
+#: ../src/record.c:45
+msgid "Width of recording rectangle"
+msgstr "Szerokość prostokąta nagrywania"
+
+#: ../src/record.c:46
+msgid "Height of recording rectangle"
+msgstr "Wysokość prostokąta nagrywania"
+
+#: ../src/record.c:47
+msgid "Be verbose"
+msgstr "Szczegółowe komunikaty"
+
+#: ../src/record.c:71
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "użycie: %s [OPCJE] nazwa-pliku\n"
+
+#: ../src/record.c:81
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "Błąd podczas nagrywania: %s\n"
+
+#: ../src/record.c:87
+msgid "Recording done.\n"
+msgstr "Ukończono nagrywanie.\n"
+
+#: ../src/record.c:95
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Ukończono nagrywanie. Kończenie kodowania...\n"
+
+#: ../src/record.c:107
+#, c-format
+msgid "Child exited with error %d\n"
+msgstr "Proces potomny został zakończony z błędem %d\n"
+
+#: ../src/record.c:121
+#, c-format
+msgid "Invalid exec command: %s\n"
+msgstr "Nieprawidłowe polecenie exec: %s\n"
+
+#: ../src/record.c:129
+#, c-format
+msgid "Failed to execute: %s\n"
+msgstr "Wykonanie się nie powiodło: %s\n"
+
+#: ../src/record.c:135
+msgid "Recording starts. Will record until child exits...\n"
+msgstr ""
+"Rozpoczęto nagrywanie. Będzie nagrywane aż do zakończenia działania procesu "
+"potomnego...\n"
+
+#: ../src/record.c:138
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Rozpoczęto nagrywanie. Zostanie nagranych %d s...\n"
+
+#: ../src/record.c:173
+msgid "record your current desktop session"
+msgstr "nagrywa bieżącą sesję pulpitu"
+
+#: ../src/record.c:190
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "Podany obszar nie znajduje się na pulpicie.\n"

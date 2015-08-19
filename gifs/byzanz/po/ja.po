@@ -1,0 +1,210 @@
+# Japanese messages translation for byzanz
+# Copyright (C) 2007 Benjamin Otte <otte@gnome.org>
+# This file is distributed under the same license as the byzanz package.
+# Satoru SATOH <ss@gnome.gr.jp>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz trunk\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
+"POT-Creation-Date: 2007-07-23 02:17+0900\n"
+"PO-Revision-Date: 2007-07-23 02:36+0900\n"
+"Last-Translator: Satoru SATOH <ss@gnome.gr.jp>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/byzanz.schemas.in.h:1
+msgid "Directory to save in"
+msgstr "保存ディレクトリ"
+
+#: ../src/byzanz.schemas.in.h:2
+msgid ""
+"If set, Byzanz will record the mouse cursor. While useful, recording the "
+"mouse cursor results in bigger files and should therefore be used with care."
+msgstr "設定されていれば Byzanz はマウスカーソルも録画します。便利ですが"
+"ファイル容量が大きくなってしまうので注意が必要です。"
+
+#: ../src/byzanz.schemas.in.h:3 ../src/record.c:39
+msgid "Record mouse cursor"
+msgstr "マウスカーソルを録画"
+
+#: ../src/byzanz.schemas.in.h:4
+msgid "Recording method"
+msgstr "録画の方法"
+
+#: ../src/byzanz.schemas.in.h:5
+msgid "This is the directory that Byzanz will default to when saving a file."
+msgstr "Byzanz がファイルを保存するデフォルトのディレクトリです。"
+
+#: ../src/byzanz.schemas.in.h:6
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr "デフォルトの録画方法です。画面全体を録画するには \"screen\" を、"
+"選択した範囲を録画するには \"area\" を、ウィンドウを録画するには \"window\""
+" を選択します。"
+
+#: ../src/byzanzapplet.c:110
+msgid "A file could not be saved."
+msgstr "ファイルを保存できませんでした"
+
+#: ../src/byzanzapplet.c:111
+#, c-format
+msgid ""
+"\"%s\" could not be saved.\n"
+"The error that occured was: %s"
+msgstr "\"%s\" を保存できませんでした\n"
+"発生したエラー: %s"
+
+#: ../src/byzanzapplet.c:175
+msgid "Save Recorded File"
+msgstr "録画ファイルを保存"
+
+#: ../src/byzanzapplet.c:224
+msgid "Stop current recording"
+msgstr "現在の録画を停止"
+
+#: ../src/byzanzapplet.c:258
+msgid "Cannot start recording."
+msgstr "録画を開始できません"
+
+#: ../src/byzanzapplet.c:259 ../src/record.c:131
+#, c-format
+msgid ""
+"Byzanz requires a 24bpp or 32bpp depth for recording. The current resolution "
+"is set to %dbpp."
+msgstr "Byzanz は録画に 24bpp または 32bpp の色深度を必要とします。"
+"現在の解像度は %dbpp に設定されています。"
+
+#: ../src/byzanzapplet.c:369 ../src/ByzanzApplet.server.in.in.h:2
+msgid "Desktop Recorder"
+msgstr "デスクトップ録画"
+
+#: ../src/byzanzapplet.c:372 ../src/ByzanzApplet.server.in.in.h:3
+msgid "Record what's happening on your desktop"
+msgstr "デスクトップで何が起きているかを録画します"
+
+#: ../src/byzanzapplet.c:374
+msgid "translator-credits"
+msgstr "Satoru SATOH <ss@gnome.gr.jp>"
+
+#: ../src/byzanzapplet.c:441
+msgid "Record _Mouse Cursor"
+msgstr "マウスカーソルを録画(_M)"
+
+#: ../src/byzanzapplet.xml.h:1
+msgid "_About"
+msgstr "情報(_A)"
+
+#: ../src/byzanzselect.c:312
+msgid "Record _Desktop"
+msgstr "デスクトップを録画(_D)"
+
+#: ../src/byzanzselect.c:312
+msgid "Record the entire desktop"
+msgstr "デスクトップ全体を録画"
+
+#: ../src/byzanzselect.c:314
+msgid "Record _Area"
+msgstr "選択範囲を録画(_A)"
+
+#: ../src/byzanzselect.c:314
+msgid "Record a selected area of the desktop"
+msgstr "デスクトップの選択した範囲を録画"
+
+#: ../src/byzanzselect.c:316
+msgid "Record _Window"
+msgstr "ウィンドウを録画(_W)"
+
+#: ../src/byzanzselect.c:316
+msgid "Record a selected window"
+msgstr "選択したウィンドウを録画"
+
+#: ../src/ByzanzApplet.server.in.in.h:1
+msgid "Byzanz Factory"
+msgstr "Byzanz ファクトリ"
+
+#: ../src/record.c:36
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "アニメーションの持続時間 (デフォルト: 10 秒)"
+
+#: ../src/record.c:36 ../src/record.c:37
+msgid "SECS"
+msgstr "SECS"
+
+#: ../src/record.c:37
+msgid "Delay before start (default: 1 second)"
+msgstr "開始までの待ち時間 (デフォルト: 1 秒)"
+
+#: ../src/record.c:38
+msgid "Let the animation loop"
+msgstr "アニメーションを繰り返す"
+
+#: ../src/record.c:40
+msgid "X coordinate of rectangle to record"
+msgstr "録画する範囲の X 座標"
+
+#: ../src/record.c:40 ../src/record.c:41 ../src/record.c:42 ../src/record.c:43
+msgid "PIXEL"
+msgstr "PIXEL"
+
+#: ../src/record.c:41
+msgid "Y coordinate of rectangle to record"
+msgstr "録画する範囲の Y 座標"
+
+#: ../src/record.c:42
+msgid "Width of recording rectangle"
+msgstr "録画する範囲の幅"
+
+#: ../src/record.c:43
+msgid "Height of recording rectangle"
+msgstr "録画する範囲の高さ"
+
+#: ../src/record.c:44
+msgid "Be verbose"
+msgstr "冗長にする"
+
+#: ../src/record.c:66
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "使い方: %s [オプション] ファイル名\n"
+
+#: ../src/record.c:67
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/record.c:73
+msgid "Recording done. Cleaning up...\n"
+msgstr "録画完了。後片付けをしています ...\n"
+
+#: ../src/record.c:83
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "録画開始。%d 秒間録画します...\n"
+
+#: ../src/record.c:93
+msgid "Preparing recording. Will start in 1 second...\n"
+msgstr "録画準備。1 秒後に開始します...\n"
+
+#: ../src/record.c:116
+msgid "record your current desktop session"
+msgstr "現在のデスクトップセッションを録画"
+
+#: ../src/record.c:120
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "間違ったオプション: %s\n"
+
+#: ../src/record.c:138
+#, c-format
+msgid ""
+"Could not prepare recording.\n"
+"Most likely the Damage extension is not available on the X server or the "
+"file \"%s\" is not writable.\n"
+msgstr "録画準備できませんでした\n"
+"おそらく X サーバーで Damage 拡張が利用できないか、ファイル \"%s\" に"
+"書き込む権限がありません。\n"

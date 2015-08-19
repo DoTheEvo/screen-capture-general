@@ -1,0 +1,343 @@
+# Catalan translation of Byzanz.
+# Copyright © 2007 The Free Software Foundation, Inc.
+# This file is distributed under the same license as the Byzanz package.
+# Xavi Salvat Lozano <dj_radikal7@hotmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Byzanz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=byzanz&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 14:35+0000\n"
+"PO-Revision-Date: 2010-03-12 21:18+0100\n"
+"Last-Translator: David Espinosa Alentorn <filferros@yahoo.es>\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+
+#: ../src/byzanzapplet.c:104 ../src/byzanzapplet.c:267
+msgid "Record your desktop"
+msgstr "Enregistreu l'escriptori"
+
+#: ../src/byzanzapplet.c:105
+msgid "Select area to record"
+msgstr "Seleccioneu una àrea per enregistrar"
+
+#: ../src/byzanzapplet.c:106
+msgid "End current recording"
+msgstr "Atura l'enregistrament actual"
+
+#: ../src/byzanzapplet.c:107
+msgid "Abort encoding of recording"
+msgstr "Interromp la codificació de l'enregistrament"
+
+#: ../src/byzanzapplet.c:277
+msgid "All files"
+msgstr "Tots els fitxers"
+
+#: ../src/byzanzapplet.c:293
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:5 ../src/record.c:42
+msgid "Record audio"
+msgstr "Enregistra el so"
+
+#: ../src/byzanzapplet.c:361
+msgid "Desktop Session"
+msgstr "Sessió de l'escriptori"
+
+#: ../src/byzanzapplet.c:364
+msgid "Record what's happening on your desktop"
+msgstr "Enregistreu el que passa al vostre escriptori"
+
+#: ../src/byzanzapplet.c:366
+msgid "translator-credits"
+msgstr ""
+"Xavi Salvat Lozano <dj_radikal7@hotmail.com>\n"
+"David Espinosa Alentorn <fiflerros@yahoo.es>"
+
+#: ../src/byzanzapplet.c:371
+msgid "_About"
+msgstr "_Quant a"
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "Fitxers de depuració del Byzanz"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:128
+msgid "This format does not support recording audio."
+msgstr "Aquest format no permet enregistrar so."
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Vídeo Flash"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "No hi ha cap imatge per codificar."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "Imatges GIF"
+
+#: ../src/byzanzencodergstreamer.c:170
+msgid "Failed to start GStreamer pipeline"
+msgstr "No s'ha pogut iniciar el conducte del GStreamer"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Vídeo Theora"
+
+#: ../src/byzanzencoderwebm.c:38
+#, fuzzy
+#| msgid "Theora video"
+msgid "WebM video"
+msgstr "Vídeo Theora"
+
+#: ../src/byzanzselect.c:365
+msgid "Record _Desktop"
+msgstr "Enregistra l'_escriptori"
+
+#: ../src/byzanzselect.c:365
+msgid "Record the entire desktop"
+msgstr "Enregistra tot l'escriptori"
+
+#: ../src/byzanzselect.c:367
+msgid "Record _Area"
+msgstr "Enregistr_a una àrea"
+
+#: ../src/byzanzselect.c:367
+msgid "Record a selected area of the desktop"
+msgstr "Enregistra una àrea seleccionada de l'escriptori"
+
+#: ../src/byzanzselect.c:369
+msgid "Record _Window"
+msgstr "Enregistra una _finestra"
+
+#: ../src/byzanzselect.c:369
+msgid "Record a selected window"
+msgstr "Enregistra la finestra seleccionada"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "Aquest enregistrament no s'ha realitzat amb el Byzanz"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "L'ordre de bytes no és permès"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:1
+msgid "Save filename"
+msgstr "Nom del fitxer per al desament"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:2
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr ""
+"URI del nom de fitxer que el Byzanz suggerirà quan s'iniciï un "
+"enregistrament.  "
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:3
+msgid "Recording method"
+msgstr "Mètode d'enregistrament"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:4
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Utilitza aquest mètode com a mètode per defecte d'enregistrament. Ha de ser "
+"«screen» (pantalla) per enregistrar la pantalla completa, «area» (àrea) per "
+"seleccionar una àrea o «window» (finestra) per seleccionar una finestra. "
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:6
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Si s'estableix, el Byzanz enregistrarà el so utilitzant el dispositiu de so "
+"predeterminat si el format ho permet. Això permet la narració durant "
+"l'enregistrament."
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "Forma d'ús: %s [OPCIONS] FITXER-ENTRADA FITXER-SORTIDA\n"
+
+#: ../src/playback.c:38 ../src/record.c:72
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/playback.c:74
+msgid "process a Byzanz debug recording"
+msgstr "processa un enregistrament de depuració del Byzanz"
+
+#: ../src/playback.c:81 ../src/record.c:181
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Opció errònia: %s\n"
+
+#: ../src/record.c:38
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Durada de l'animació (per defecte: 10 segons)"
+
+#: ../src/record.c:38 ../src/record.c:40
+msgid "SECS"
+msgstr "SEGS"
+
+#: ../src/record.c:39
+msgid "Command to execute and time"
+msgstr ""
+
+#: ../src/record.c:39
+msgid "COMMAND"
+msgstr ""
+
+#: ../src/record.c:40
+msgid "Delay before start (default: 1 second)"
+msgstr "Retard abans de començar (per defecte: 1 segon)"
+
+#: ../src/record.c:41
+msgid "Record mouse cursor"
+msgstr "Enregistra el cursor"
+
+#: ../src/record.c:43
+msgid "X coordinate of rectangle to record"
+msgstr "Coordenada X del rectangle per enregistrar"
+
+#: ../src/record.c:43 ../src/record.c:44 ../src/record.c:45 ../src/record.c:46
+msgid "PIXEL"
+msgstr "PÍXEL"
+
+#: ../src/record.c:44
+msgid "Y coordinate of rectangle to record"
+msgstr "Coordenada Y del rectangle per enregistrar"
+
+#: ../src/record.c:45
+msgid "Width of recording rectangle"
+msgstr "Amplada del rectangle per enregistrar"
+
+#: ../src/record.c:46
+msgid "Height of recording rectangle"
+msgstr "Alçada del rectangle per enregistrar"
+
+#: ../src/record.c:47
+msgid "Be verbose"
+msgstr "Sigues detallat"
+
+#: ../src/record.c:71
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "Forma d'ús: %s [OPTIONS] nomdelfitxer\n"
+
+#: ../src/record.c:81
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "S'ha produït un error durant l'enregistrament: %s\n"
+
+#: ../src/record.c:87
+msgid "Recording done.\n"
+msgstr "S'ha realitzat l'enregistrament.\n"
+
+#: ../src/record.c:95
+msgid "Recording completed. Finishing encoding...\n"
+msgstr ""
+"S'ha completat l'enregistrament. S'està finalitzant la codificació...\n"
+
+#: ../src/record.c:107
+#, c-format
+msgid "Child exited with error %d\n"
+msgstr ""
+
+#: ../src/record.c:121
+#, c-format
+msgid "Invalid exec command: %s\n"
+msgstr ""
+
+#: ../src/record.c:129
+#, c-format
+msgid "Failed to execute: %s\n"
+msgstr ""
+
+#: ../src/record.c:135
+#, fuzzy
+#| msgid "Recording starts. Will record %d seconds...\n"
+msgid "Recording starts. Will record until child exits...\n"
+msgstr "S'inicia l'enregistrament, durarà %d segons...\n"
+
+#: ../src/record.c:138
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "S'inicia l'enregistrament, durarà %d segons...\n"
+
+#: ../src/record.c:173
+msgid "record your current desktop session"
+msgstr "enregistreu la vostra sessió d'escriptori actual"
+
+#: ../src/record.c:190
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "L'àrea seleccionada no es troba dins l'escriptori.\n"
+
+#~ msgid "Byzanz Factory"
+#~ msgstr "Fàbrica Byzanz"
+
+#~ msgid "Desktop Recorder"
+#~ msgstr "Enregistrador de l'escriptori"
+
+#~ msgid "Directory to save in"
+#~ msgstr "Directori per desar"
+
+#~ msgid ""
+#~ "If set, Byzanz will record the mouse cursor. While useful, recording the "
+#~ "mouse cursor results in bigger files and should therefore be used with "
+#~ "care."
+#~ msgstr ""
+#~ "Si està establert, el Byzanz enregistrarà el cursor del ratolí­. Tot i que "
+#~ "resulti útil, si graveu el cursor del ratolí­ els fitxers seràn més grans; "
+#~ "per tan, empreu-ho amb compte."
+
+#~ msgid ""
+#~ "This is the directory that Byzanz will default to when saving a file."
+#~ msgstr ""
+#~ "Aquest és el directori predeterminat on el Byzanz desarà els fitxers."
+
+#~ msgid "A file could not be saved."
+#~ msgstr "No s'ha pogut desar el fitxer."
+
+#~ msgid ""
+#~ "\"%s\" could not be saved.\n"
+#~ "The error that occured was: %s"
+#~ msgstr ""
+#~ "No s'ha pogut desar «%s».\n"
+#~ "L'error que s'ha produït ha estat: %s"
+
+#~ msgid "Save Recorded File"
+#~ msgstr "Desa el fitxer enregistrat"
+
+#~ msgid ""
+#~ "Byzanz requires a 24bpp or 32bpp depth for recording. The current "
+#~ "resolution is set to %dbpp."
+#~ msgstr ""
+#~ "El Byzanz requereix una profunditat de 24bpp o 32bpp per a "
+#~ "l'enregistrament. La resolució actual és de %dbpp."
+
+#~ msgid "Record _Mouse Cursor"
+#~ msgstr "Enregistra el _cursor del ratolí"
+
+#~ msgid "Let the animation loop"
+#~ msgstr "Fes una animació en bucle"
+
+#~ msgid "Preparing recording. Will start in 1 second...\n"
+#~ msgstr "Preparant l'enregistrament, començarà en 1 segon...\n"
+
+#~ msgid ""
+#~ "Could not prepare recording.\n"
+#~ "Most likely the Damage extension is not available on the X server or the "
+#~ "file \"%s\" is not writable.\n"
+#~ msgstr ""
+#~ "No s'ha pogut preparar l'enregistrament.\n"
+#~ "Segurament no disposeu de l'extensió Damage en el servidor d'X, o no es "
+#~ "pot escriure en el fitxer «%s».\n"

@@ -1,0 +1,243 @@
+# Ukrainian translation for byzanz.
+# Copyright (C) 2011 byzanz's COPYRIGHT HOLDER
+# This file is distributed under the same license as the byzanz package.
+# Sergiy Gavrylov <sergiovana@bigmir.net>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=byzanz&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-04-10 05:57+0000\n"
+"PO-Revision-Date: 2011-04-18 12:46+0300\n"
+"Last-Translator: Sergiy Gavrylov <sergiovana@bigmir.net>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../src/byzanz.schemas.in.h:1
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Якщо встановлено, Byzanz записуватиме аудіо з типового аудіопристрою, якщо "
+"його формат підтримується. Це дає змогу записувати також і розмову."
+
+#: ../src/byzanz.schemas.in.h:2 ../src/byzanzapplet.c:292 ../src/record.c:40
+msgid "Record audio"
+msgstr "Записати аудіо"
+
+#: ../src/byzanz.schemas.in.h:3
+msgid "Recording method"
+msgstr "Спосіб запису"
+
+#: ../src/byzanz.schemas.in.h:4
+msgid "Save filename"
+msgstr "Зберегти назву файла"
+
+#: ../src/byzanz.schemas.in.h:5
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr "URI назви файла, яку Byzanz запропонує на початку запису."
+
+#: ../src/byzanz.schemas.in.h:6
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Типовий спосіб запису. Має бути одне зі значень: «екран» — для запису всього "
+"екрана, «діялянка» — для вибору ділянки та «вікно» — для вибору вікна."
+
+#: ../src/byzanzapplet.c:102 ../src/byzanzapplet.c:266
+msgid "Record your desktop"
+msgstr "Записати весь екран"
+
+#: ../src/byzanzapplet.c:103
+msgid "Select area to record"
+msgstr "Вибрати ділянку для запису"
+
+#: ../src/byzanzapplet.c:104
+msgid "End current recording"
+msgstr "Завершити поточний запис"
+
+#: ../src/byzanzapplet.c:105
+msgid "Abort encoding of recording"
+msgstr "Перервати кодування запису"
+
+#: ../src/byzanzapplet.c:276
+msgid "All files"
+msgstr "Всі файли"
+
+#: ../src/byzanzapplet.c:366
+msgid "Desktop Session"
+msgstr "Сеанс стільниці"
+
+#: ../src/byzanzapplet.c:369
+msgid "Record what's happening on your desktop"
+msgstr "Записати події на стільниці"
+
+#: ../src/byzanzapplet.c:371
+msgid "translator-credits"
+msgstr "Sergiy Gavrylov <sergiovana@bigmir.net>, 2011."
+
+#: ../src/byzanzapplet.c:376
+msgid "_About"
+msgstr "_Про програму"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:127
+msgid "This format does not support recording audio."
+msgstr "Цей формат не підтримує запис аудіо."
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "Файли зневадження Byzanz"
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Відео Flash"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "Немає зображення для кодування."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "Зображення у форматі GIF"
+
+#: ../src/byzanzencodergstreamer.c:165
+msgid "Failed to start GStreamer pipeline"
+msgstr "Не вдалось запустити канал даних GStreamer"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Відео у форматі Theora"
+
+#: ../src/byzanzencoderwebm.c:38
+msgid "WebM video"
+msgstr "Відео у форматі WebM"
+
+#: ../src/byzanzselect.c:357
+msgid "Record _Desktop"
+msgstr "Записати _стільницю"
+
+#: ../src/byzanzselect.c:357
+msgid "Record the entire desktop"
+msgstr "Запис всієї стільниці"
+
+#: ../src/byzanzselect.c:359
+msgid "Record _Area"
+msgstr "Записати _ділянку"
+
+#: ../src/byzanzselect.c:359
+msgid "Record a selected area of the desktop"
+msgstr "Запис вибраної ділянки стільниці"
+
+#: ../src/byzanzselect.c:361
+msgid "Record _Window"
+msgstr "Записати _вікно"
+
+#: ../src/byzanzselect.c:361
+msgid "Record a selected window"
+msgstr "Запис вибраного вікна"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "Не запис Byzanz"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "Непідтримуваний порядок байтів"
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "використання: %s [ПАРАМЕТРИ] INFILE OUTFILE\n"
+
+#: ../src/playback.c:38 ../src/record.c:68
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/playback.c:77
+msgid "process a Byzanz debug recording"
+msgstr "Оброблення зневадження запису Byzanz"
+
+#: ../src/playback.c:84 ../src/record.c:143
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Неправильний параметр: %s\n"
+
+#: ../src/record.c:37
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Тривалість анімації (типово 10 секунд)"
+
+#: ../src/record.c:37 ../src/record.c:38
+msgid "SECS"
+msgstr "СЕК"
+
+#: ../src/record.c:38
+msgid "Delay before start (default: 1 second)"
+msgstr "Затримка перед початком (типово 1 секунда)"
+
+#: ../src/record.c:39
+msgid "Record mouse cursor"
+msgstr "Запис вказівника миші"
+
+#: ../src/record.c:41
+msgid "X coordinate of rectangle to record"
+msgstr "Координата X прямокутника запису"
+
+#: ../src/record.c:41 ../src/record.c:42 ../src/record.c:43 ../src/record.c:44
+msgid "PIXEL"
+msgstr "ПІКСЕЛ"
+
+#: ../src/record.c:42
+msgid "Y coordinate of rectangle to record"
+msgstr "Координата Y прямокутника запису"
+
+#: ../src/record.c:43
+msgid "Width of recording rectangle"
+msgstr "Ширина прямокутника запису"
+
+#: ../src/record.c:44
+msgid "Height of recording rectangle"
+msgstr "Висота прямокутника запису"
+
+#: ../src/record.c:45
+msgid "Be verbose"
+msgstr "Докладний вивід"
+
+#: ../src/record.c:67
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "використання: %s [ПАРАМЕТР] назва_файла\n"
+
+#: ../src/record.c:77
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "Помилка під час запису: %s\n"
+
+#: ../src/record.c:83
+msgid "Recording done.\n"
+msgstr "Запис завершено.\n"
+
+#: ../src/record.c:91
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Запис завершено. Завершення кодування…\n"
+
+#: ../src/record.c:100
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Запис розпочато. Тривалість запису %d секунд…\n"
+
+#: ../src/record.c:135
+msgid "record your current desktop session"
+msgstr "запис поточного сеансу стільниці"
+
+#: ../src/record.c:152
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "Задана ділянка за межами стільниці.\n"

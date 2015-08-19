@@ -1,0 +1,302 @@
+# Vietnamese translation for Byzanz.
+# Copyright © 2008 GNOME i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2008.
+# Lê Trường An <xinemdungkhoc1@gmail.com>, 2011.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: byzanz GNOME TRUNK\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=byzanz&component=general\n"
+"POT-Creation-Date: 2011-02-21 18:35+0000\n"
+"PO-Revision-Date: 2011-04-24 09:34+0700\n"
+"Last-Translator: Lê Trường An <xinemdungkhoc1@gmail.com>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.7b3\n"
+
+#: ../src/byzanz.schemas.in.h:1
+msgid "If set, Byzanz will record audio from the default audio device if the format supports it. This allows narrating along with the recording."
+msgstr "Nếu thiết đặt, Byzanz sẽ ghi âm từ thiết bị âm thanh mặc định nếu định dạng được hỗ trợ. Cho phép nghe lại cùng với ghi âm."
+
+#: ../src/byzanz.schemas.in.h:2
+#: ../src/byzanzapplet.c:292
+#: ../src/record.c:40
+#| msgid "Record _Window"
+msgid "Record audio"
+msgstr "Ghi âm"
+
+#: ../src/byzanz.schemas.in.h:3
+msgid "Recording method"
+msgstr "Cách ghi"
+
+#: ../src/byzanz.schemas.in.h:4
+msgid "Save filename"
+msgstr "Lưu tên tập tin"
+
+#: ../src/byzanz.schemas.in.h:5
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr "URI cho tên tập tin Byzanz sẽ yêu cầu khi bắt đầu ghi âm."
+
+#: ../src/byzanz.schemas.in.h:6
+msgid "Use this method as the default method for recording. Must be one of \"screen\" for recording the whole screen, \"area\" for selecting an area or \"window\" to select a window."
+msgstr "Hãy sử dụng phương pháp này làm mặc định khi ghi hình. Dùng \"screen\" khi ghi lại cả màn hình, \"area\" để chọn một khu vực hoặc \"window\" để chọn một cửa sổ."
+
+#: ../src/byzanzapplet.c:102
+#: ../src/byzanzapplet.c:266
+#| msgid "Record _Desktop"
+msgid "Record your desktop"
+msgstr "Ghi lại màn hình làm việc của bạn"
+
+#: ../src/byzanzapplet.c:103
+#| msgid "Stop current recording"
+msgid "Select area to record"
+msgstr "Chọn vùng để ghi lại"
+
+#: ../src/byzanzapplet.c:104
+#| msgid "Stop current recording"
+msgid "End current recording"
+msgstr "Dừng ghi"
+
+#: ../src/byzanzapplet.c:105
+msgid "Abort encoding of recording"
+msgstr "Hủy bỏ mã hóa ghi âm"
+
+#: ../src/byzanzapplet.c:276
+msgid "All files"
+msgstr "Tất cả tập tin"
+
+#: ../src/byzanzapplet.c:366
+#| msgid "Desktop Recorder"
+msgid "Desktop Session"
+msgstr "Phiên làm việc"
+
+#: ../src/byzanzapplet.c:369
+msgid "Record what's happening on your desktop"
+msgstr "Ghi lại mọi hoạt động trên màn hình làm việc"
+
+#: ../src/byzanzapplet.c:371
+msgid "translator-credits"
+msgstr "Nhóm Việt hóa GNOME <gnomevi-list@lists.sourceforge.net>"
+
+#: ../src/byzanzapplet.c:376
+msgid "_About"
+msgstr "_Giới thiệu"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:127
+msgid "This format does not support recording audio."
+msgstr "Định dạng này không hỗ trợ ghi âm."
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "Tập tin gỡ lỗi Byzanz"
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Video flash"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "Không có hình ảnh để mã hoá."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "Ảnh GIF"
+
+#: ../src/byzanzencodergstreamer.c:165
+msgid "Failed to start GStreamer pipeline"
+msgstr "Khởi động ống dẫn GStreamer thất bại"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Video Theora"
+
+#: ../src/byzanzencoderwebm.c:38
+msgid "WebM video"
+msgstr "Video Webm"
+
+#: ../src/byzanzselect.c:357
+msgid "Record _Desktop"
+msgstr "Ghi lại màn _hình làm việc"
+
+#: ../src/byzanzselect.c:357
+msgid "Record the entire desktop"
+msgstr "Ghi lại toàn bộ màn hình"
+
+#: ../src/byzanzselect.c:359
+msgid "Record _Area"
+msgstr "Ghi hình một _khu vực"
+
+#: ../src/byzanzselect.c:359
+msgid "Record a selected area of the desktop"
+msgstr "Ghi hình một vùng được chọn của màn hình"
+
+#: ../src/byzanzselect.c:361
+msgid "Record _Window"
+msgstr "Ghi hình _cửa sổ"
+
+#: ../src/byzanzselect.c:361
+msgid "Record a selected window"
+msgstr "Ghi hình một cửa sổ được chọn"
+
+#: ../src/byzanzserialize.c:89
+#| msgid "Cannot start recording."
+msgid "Not a Byzanz recording"
+msgstr "Không phải bản ghi của Byzanz"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "Thứ tự byte không được hỗ trợ"
+
+#: ../src/playback.c:37
+#, c-format
+#| msgid "usage: %s [OPTIONS] filename\n"
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "sử dụng: %s [TÙY_CHỌN] TẬP_TIN_VÀO TẬP_TIN_XUẤT\n"
+
+#: ../src/playback.c:38 ../src/record.c:68
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/playback.c:77
+msgid "process a Byzanz debug recording"
+msgstr ""
+
+#: ../src/playback.c:84 ../src/record.c:143
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Tùy chọn sai: %s\n"
+
+#: ../src/record.c:37
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Thời gian hoạt ảnh (mặc định: 10 giây)"
+
+#: ../src/record.c:37 ../src/record.c:38
+msgid "SECS"
+msgstr "GIÂY"
+
+#: ../src/record.c:38
+msgid "Delay before start (default: 1 second)"
+msgstr "Khoảng đợi trước khi bắt đầu (mặc định: 1 giây)"
+
+#: ../src/record.c:39
+msgid "Record mouse cursor"
+msgstr "Ghi hình con trỏ chuột"
+
+#: ../src/record.c:41
+msgid "X coordinate of rectangle to record"
+msgstr "Toạ độ X của hình chữ nhật cần ghi"
+
+#: ../src/record.c:41 ../src/record.c:42 ../src/record.c:43 ../src/record.c:44
+msgid "PIXEL"
+msgstr "ĐIỂM ẢNH"
+
+#: ../src/record.c:42
+msgid "Y coordinate of rectangle to record"
+msgstr "Toạ độ Y của hình chữ nhật cần ghi"
+
+#: ../src/record.c:43
+msgid "Width of recording rectangle"
+msgstr "Chiều rộng của hình chữ nhật cần ghi"
+
+#: ../src/record.c:44
+msgid "Height of recording rectangle"
+msgstr "Chiều cao của hình chữ nhật cần ghi"
+
+#: ../src/record.c:45
+msgid "Be verbose"
+msgstr "Xuất chi tiết"
+
+#: ../src/record.c:67
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "sử dụng: %s [TÙY_CHỌN] tên_tập_tin\n"
+
+#: ../src/record.c:77
+#, c-format
+#| msgid "Stop current recording"
+msgid "Error during recording: %s\n"
+msgstr "Lỗi trong quá trình ghi: %s\n"
+
+#: ../src/record.c:83
+#| msgid "Recording method"
+msgid "Recording done.\n"
+msgstr "Đã ghi xong.\n"
+
+#: ../src/record.c:91
+#| msgid "Recording done. Cleaning up...\n"
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Đã ghi xong. Đang mã hoá...\n"
+
+#: ../src/record.c:100
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Sắp ghi hình. Sẽ ghi %d giây...\n"
+
+#: ../src/record.c:135
+msgid "record your current desktop session"
+msgstr "ghi lại phiên làm việc hiện tại"
+
+#: ../src/record.c:152
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "Vùng đã chọn không nằm trong màn hình làm việc.\n"
+
+#~ msgid "Directory to save in"
+#~ msgstr "Thư mục vào đó cần lưu"
+
+#~ msgid ""
+#~ "If set, Byzanz will record the mouse cursor. While useful, recording the "
+#~ "mouse cursor results in bigger files and should therefore be used with "
+#~ "care."
+#~ msgstr ""
+#~ "Bật tùy chọn này thì trình Byzanz sẽ thu con trỏ chuột. Dù có ích, chức "
+#~ "năng thu con trỏ chuột gây ra tập tin lớn: hãy sử dụng cẩn thận."
+
+#~ msgid ""
+#~ "This is the directory that Byzanz will default to when saving a file."
+#~ msgstr "Đây là thư mục mặc định vào đó Byzanz sẽ lưu tập tin."
+
+#~ msgid "A file could not be saved."
+#~ msgstr "Một tập tin không lưu được."
+
+#~ msgid ""
+#~ "\"%s\" could not be saved.\n"
+#~ "The error that occured was: %s"
+#~ msgstr ""
+#~ "« %s » không lưu được.\n"
+#~ "Gặp lỗi: %s"
+
+#~ msgid "Save Recorded File"
+#~ msgstr "Lưu tập tin đã lưu"
+
+#~ msgid ""
+#~ "Byzanz requires a 24bpp or 32bpp depth for recording. The current "
+#~ "resolution is set to %dbpp."
+#~ msgstr ""
+#~ "Trình Byzanz đòi hỏi độ sâu 24bpp hay 32bpp để thu. Độ phân giải hiện "
+#~ "thời được đặt thành %dbpp."
+
+#~ msgid "Record _Mouse Cursor"
+#~ msgstr "Thu _con trỏ chuột"
+
+#~ msgid "Byzanz Factory"
+#~ msgstr "Bộ tạo Byzanz"
+
+#~ msgid "Let the animation loop"
+#~ msgstr "Cho phép hoạt ảnh cuộn lại"
+
+#~ msgid "Preparing recording. Will start in 1 second...\n"
+#~ msgstr "Đang chuẩn bị chức năng thu : sẽ bắt đầu sau 1 giây...\n"
+
+#~ msgid ""
+#~ "Could not prepare recording.\n"
+#~ "Most likely the Damage extension is not available on the X server or the "
+#~ "file \"%s\" is not writable.\n"
+#~ msgstr ""
+#~ "Không thể chuẩn bị chức năng thu.\n"
+#~ "Rất có thể là phần mở rộng Damage không công bố thông qua trình phục vụ "
+#~ "X, hoặc « %s » không ghi được.\n"

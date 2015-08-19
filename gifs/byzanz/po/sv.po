@@ -1,0 +1,343 @@
+# Swedish translation of byzanz.
+# Copyright © 2006-2015 Free Software Foundation, Inc.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2009, 2010.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Byzanz\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=byzanz&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 14:35+0000\n"
+"PO-Revision-Date: 2015-05-12 13:37+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#: ../src/byzanzapplet.c:104 ../src/byzanzapplet.c:267
+msgid "Record your desktop"
+msgstr "Spela in ditt skrivbord"
+
+#: ../src/byzanzapplet.c:105
+msgid "Select area to record"
+msgstr "Markera ett område att spela in"
+
+#: ../src/byzanzapplet.c:106
+msgid "End current recording"
+msgstr "Avsluta aktuell inspelning"
+
+#: ../src/byzanzapplet.c:107
+msgid "Abort encoding of recording"
+msgstr "Avbryt kodning av inspelningen"
+
+#: ../src/byzanzapplet.c:277
+msgid "All files"
+msgstr "Alla filer"
+
+#: ../src/byzanzapplet.c:293
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:5 ../src/record.c:42
+msgid "Record audio"
+msgstr "Spela in ljud"
+
+#: ../src/byzanzapplet.c:361
+msgid "Desktop Session"
+msgstr "Skrivbordssession"
+
+#: ../src/byzanzapplet.c:364
+msgid "Record what's happening on your desktop"
+msgstr "Spela in vad som händer på ditt skrivbord"
+
+#: ../src/byzanzapplet.c:366
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>\n"
+"Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>."
+
+#: ../src/byzanzapplet.c:371
+msgid "_About"
+msgstr "_Om"
+
+#: ../src/byzanzencoderbyzanz.c:80
+msgid "Byzanz debug files"
+msgstr "Byzanz-felsökningsfiler"
+
+#: ../src/byzanzencoder.c:89 ../src/byzanzencodergstreamer.c:128
+msgid "This format does not support recording audio."
+msgstr "Detta format saknar stöd för inspelning av ljud."
+
+#: ../src/byzanzencoderflv.c:38
+msgid "Flash video"
+msgstr "Flash-video"
+
+#: ../src/byzanzencodergif.c:209
+msgid "No image to encode."
+msgstr "Ingen bild att koda."
+
+#: ../src/byzanzencodergif.c:248
+msgid "GIF images"
+msgstr "GIF-bilder"
+
+#: ../src/byzanzencodergstreamer.c:170
+msgid "Failed to start GStreamer pipeline"
+msgstr "Misslyckades med att starta GStreamer-rörledning"
+
+#: ../src/byzanzencoderogv.c:38
+msgid "Theora video"
+msgstr "Theora-video"
+
+#: ../src/byzanzencoderwebm.c:38
+msgid "WebM video"
+msgstr "WebM-video"
+
+#: ../src/byzanzselect.c:365
+msgid "Record _Desktop"
+msgstr "Spela in _skrivbord"
+
+#: ../src/byzanzselect.c:365
+msgid "Record the entire desktop"
+msgstr "Spela in hela skrivbordet"
+
+#: ../src/byzanzselect.c:367
+msgid "Record _Area"
+msgstr "Spela in _område"
+
+#: ../src/byzanzselect.c:367
+msgid "Record a selected area of the desktop"
+msgstr "Spela in ett markerat område av skrivbordet"
+
+#: ../src/byzanzselect.c:369
+msgid "Record _Window"
+msgstr "Spela in _fönster"
+
+#: ../src/byzanzselect.c:369
+msgid "Record a selected window"
+msgstr "Spela in markerat fönster"
+
+#: ../src/byzanzserialize.c:89
+msgid "Not a Byzanz recording"
+msgstr "Inte en Byzanz-inspelning"
+
+#: ../src/byzanzserialize.c:95
+msgid "Unsupported byte order"
+msgstr "Byteordningen stöds inte"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:1
+msgid "Save filename"
+msgstr "Filnamn för sparning"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:2
+msgid "URI for the filename Byzanz will suggest when starting a recording."
+msgstr "URI för filnamnet som Byzanz ska föreslå när en inspelning påbörjas."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:3
+msgid "Recording method"
+msgstr "Inspelningsmetod"
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:4
+msgid ""
+"Use this method as the default method for recording. Must be one of \"screen"
+"\" for recording the whole screen, \"area\" for selecting an area or \"window"
+"\" to select a window."
+msgstr ""
+"Använd den här metoden som standardmetoden för inspelning. Måste vara en av "
+"\"screen\" för inspelning av hela skärmen, \"area\" för markering av ett "
+"område eller \"window\" för att välja ett fönster."
+
+#: ../src/org.gnome.byzanz.applet.gschema.xml.in.in.h:6
+msgid ""
+"If set, Byzanz will record audio from the default audio device if the format "
+"supports it. This allows narrating along with the recording."
+msgstr ""
+"Om inställd så kommer Byzanz att spela in ljud från standardljudenheten om "
+"formatet har stöd för det. Detta gör att man kan prata in vad man gör i "
+"inspelningen."
+
+#: ../src/playback.c:37
+#, c-format
+msgid "usage: %s [OPTIONS] INFILE OUTFILE\n"
+msgstr "användning: %s [FLAGGOR] IN-FIL UT-FIL\n"
+
+#: ../src/playback.c:38 ../src/record.c:72
+#, c-format
+msgid "       %s --help\n"
+msgstr "       %s --help\n"
+
+#: ../src/playback.c:74
+msgid "process a Byzanz debug recording"
+msgstr "behandla en Byzanz-felsökningsinspelning"
+
+#: ../src/playback.c:81 ../src/record.c:181
+#, c-format
+msgid "Wrong option: %s\n"
+msgstr "Felaktig flagga: %s\n"
+
+#: ../src/record.c:38
+msgid "Duration of animation (default: 10 seconds)"
+msgstr "Längd på animering (standard: 10 sekunder)"
+
+#: ../src/record.c:38 ../src/record.c:40
+msgid "SECS"
+msgstr "S"
+
+#: ../src/record.c:39
+msgid "Command to execute and time"
+msgstr "Kommando att köra och ta tid på"
+
+#: ../src/record.c:39
+msgid "COMMAND"
+msgstr "KOMMANDO"
+
+#: ../src/record.c:40
+msgid "Delay before start (default: 1 second)"
+msgstr "Fördröjning före start (standard: 1 sekund)"
+
+#: ../src/record.c:41
+msgid "Record mouse cursor"
+msgstr "Spela in muspekare"
+
+#: ../src/record.c:43
+msgid "X coordinate of rectangle to record"
+msgstr "X-koordinat för rektangel att spela in"
+
+#: ../src/record.c:43 ../src/record.c:44 ../src/record.c:45 ../src/record.c:46
+msgid "PIXEL"
+msgstr "BILDPUNKT"
+
+#: ../src/record.c:44
+msgid "Y coordinate of rectangle to record"
+msgstr "Y-koordinat för rektangel att spela in"
+
+#: ../src/record.c:45
+msgid "Width of recording rectangle"
+msgstr "Bredd på inspelningsrektangel"
+
+#: ../src/record.c:46
+msgid "Height of recording rectangle"
+msgstr "Höjd på inspelningsrektangel"
+
+#: ../src/record.c:47
+msgid "Be verbose"
+msgstr "Var informativ"
+
+#: ../src/record.c:71
+#, c-format
+msgid "usage: %s [OPTIONS] filename\n"
+msgstr "användning: %s [FLAGGOR] filnamn\n"
+
+#: ../src/record.c:81
+#, c-format
+msgid "Error during recording: %s\n"
+msgstr "Fel under inspelning: %s\n"
+
+#: ../src/record.c:87
+msgid "Recording done.\n"
+msgstr "Inspelningen är färdig.\n"
+
+#: ../src/record.c:95
+msgid "Recording completed. Finishing encoding...\n"
+msgstr "Inspelningen är färdig. Färdigställer kodningen...\n"
+
+#: ../src/record.c:107
+#, c-format
+msgid "Child exited with error %d\n"
+msgstr "Barn avslutades med fel %d\n"
+
+#: ../src/record.c:121
+#, c-format
+msgid "Invalid exec command: %s\n"
+msgstr "Felaktigt exec-kommando: %s\n"
+
+#: ../src/record.c:129
+#, c-format
+msgid "Failed to execute: %s\n"
+msgstr "Kunde inte köra: %s\n"
+
+#: ../src/record.c:135
+msgid "Recording starts. Will record until child exits...\n"
+msgstr "Inspelningen startar. Kommer att spela in till barn avslutar...\n"
+
+#: ../src/record.c:138
+#, c-format
+msgid "Recording starts. Will record %d seconds...\n"
+msgstr "Inspelningen startar. Kommer att spela in %d sekunder...\n"
+
+#: ../src/record.c:173
+msgid "record your current desktop session"
+msgstr "spela in din aktuella skrivbordssession"
+
+#: ../src/record.c:190
+#, c-format
+msgid "Given area is not inside desktop.\n"
+msgstr "Angivet område är inte på skrivbordet.\n"
+
+#~ msgid "Byzanz Factory"
+#~ msgstr "Byzanz-fabrik"
+
+#~ msgid "Desktop Recorder"
+#~ msgstr "Skrivbordsinspelare"
+
+#~ msgid ""
+#~ "If set, Byzanz will record the mouse cursor. While useful, recording the "
+#~ "mouse cursor results in bigger files and should therefore be used with "
+#~ "care."
+#~ msgstr ""
+#~ "Om inställd kommer Byzanz att spela in muspekaren. Användbar funktion men "
+#~ "inspelning av muspekaren resulterar i större filer och bör därför "
+#~ "användas med försiktighet."
+
+#~ msgid "Premature end of GStreamer pipeline"
+#~ msgstr "För tidigt slut på GStreamer-rörledning"
+
+#~ msgid "Record _Mouse Cursor"
+#~ msgstr "Spela in _muspekare"
+
+#~ msgid ""
+#~ "Could not prepare recording.\n"
+#~ "Most likely the Damage extension is not available on the X server or the "
+#~ "file \"%s\" is not writable.\n"
+#~ msgstr ""
+#~ "Kunde inte förbereda inspelningen.\n"
+#~ "Antagligen är inte Damage-tillägget tillgängligt på X-servern eller att "
+#~ "filen \"%s\" inte är skrivbar.\n"
+
+#~ msgid "Save Recorded File"
+#~ msgstr "Spara inspelad fil"
+
+#~ msgid "Let the animation loop"
+#~ msgstr "Låt animeringen gå in en slinga"
+
+#~ msgid "Preparing recording. Will start in 1 second...\n"
+#~ msgstr "Förbereder inspelning. Kommer att starta om 1 sekund...\n"
+
+#~ msgid ""
+#~ "This is the directory that Byzanz will default to when saving a file."
+#~ msgstr ""
+#~ "Det här är katalogen som Byzanz som standard kommer att spara en fil i."
+
+#~ msgid "A file could not be saved."
+#~ msgstr "En fil kunde inte sparas."
+
+#~ msgid ""
+#~ "\"%s\" could not be saved.\n"
+#~ "The error that occured was: %s"
+#~ msgstr ""
+#~ "\"%s\" kunde inte sparas.\n"
+#~ "Felet som inträffade var: %s"
+
+#~ msgid ""
+#~ "Byzanz requires a 24bpp or 32bpp depth for recording. The current "
+#~ "resolution is set to %dbpp."
+#~ msgstr ""
+#~ "Byzanz kräver ett färgdjup på 24 eller 32 bitar för inspelning. Den "
+#~ "aktuella upplösningen är inställd till %d bitar."
+
+#~ msgid "SAVE"
+#~ msgstr "GUARDAR"
