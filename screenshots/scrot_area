@@ -12,6 +12,9 @@ type scrot convert play > /dev/null || exit
 shot=$HOME/Pictures/screenshots/$(date +%s)
 
 scrot -s "$shot.png" || exit
+
+play $HOME/media/shutter.ogg
+
 convert "$shot.png" "$shot.jpg" || exit
 
 read -r pngsize _ < <(wc -c "$shot.png")
@@ -23,4 +26,3 @@ else
     rm "$shot.png"
 fi
 
-play $HOME/media/shutter.ogg

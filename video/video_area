@@ -21,6 +21,10 @@
 delay=3
 shot=~/Pictures/screenshots/vid_$(date +%s)
 
+beep() {
+    play ~/media/shutter.ogg
+}
+
 if [ $# -gt 1 ]; then
     dur="$1"
     shot=~/Pictures/screenshots/$2
@@ -45,8 +49,9 @@ for (( i=$delay; i>0; --i )) ; do
     sleep 1
 done
 
+beep
 # use ffmpeg to make video recording of the desktop
 ffmpeg -video_size $rect_dimensions -framerate 25 -f x11grab -i :0+$rect_x,$rect_y -t $dur $shot.mp4
-
+beep
 # use ffmpeg to convert mp4 to webm
 ffmpeg -i $shot.mp4 -an -qmax 40 -threads 2 $shot.webm

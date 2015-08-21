@@ -21,6 +21,10 @@
 delay=3
 path="$HOME/Pictures/screenshots/gif_$(date +"%s")"
 
+beep() {
+    play ~/media/shutter.ogg
+}
+
 if [ $# -gt 1 ]; then
     dur="=$1"
     path="$HOME/Pictures/screenshots/"$2
@@ -39,4 +43,6 @@ for (( i=$delay; i>0; --i )) ; do
     sleep 1
 done
 
+beep
 byzanz-record --verbose --delay=0 ${arguments} --duration=$dur $path.gif
+beep
