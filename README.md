@@ -1,13 +1,15 @@
-# scrot_area
+# maim_area, maim_active_window
 
-Simple area screenshot making script that choses jpg or png depending on file size
+Simple area screenshot, active window screenshot, making scripts that choses jpg or png depending on file size
 
 #### dependencies
-* `scrot` for making screenshots
+* `maim` for making screenshots
+* `slop` to allow maim area screnshots
+* `xdotool` to allow active window screenshots
 * `imagemagick` for converting png to jpg
 * `sox` for playing the shutter sound
 
-The script uses `scrot -s` to take screenshot of the area selected by mouse.
+`maim_area` take screenshot of the area selected by mouse, `maim_active_window` to take screenshot of currently active window
 
 Pictures are saved in to `~/Pictures/screenshots` with the file name being always unique based on the epoch time(seconds since 1970) - for example `144008968.png`
 
@@ -45,7 +47,7 @@ gifs are saved in to `~/Pictures/screenshots` with the file name starting with "
 * `gif_area 19` - records gif for 19 seconds
 * `gif_area 120 testing` - recording for 2 minutes and the gif name is testing.gif
 
-After recording is done, sox plays ~/media/shutter.ogg
+sox plays ~/media/shutter.ogg at the start and at the end of recording
 
 ___
 
@@ -71,6 +73,6 @@ gifs are saved in to `~/Pictures/screenshots` with the file name starting with "
 * `video_area 19` - records for 19 seconds
 * `video_area 120 testing` - recording for 2 minutes and the names are testing.mp4 and testing,webm
 
-After recording is done, sox plays ~/media/shutter.ogg
+sox plays ~/media/shutter.ogg at the start and at the end of recording
 
 ___
