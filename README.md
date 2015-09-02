@@ -1,6 +1,6 @@
 # maim_area, maim_active_window
 
-Simple area screenshot, active window screenshot, making scripts that choses jpg or png depending on file size
+Simple screenshot scripts that chose jpg or png depending on file size
 
 #### dependencies
 * `maim` for making screenshots
