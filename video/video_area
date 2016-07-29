@@ -1,57 +1,58 @@
 #!/usr/bin/env bash
 
-# ffmpeg is used to record video and convert to webm
-# xrectsel is used to get coordinates where to record
+# DEPENDENCIES
+
+# ffmpeg to record mp4 video and convert to webm
+# slop to get coordinates where to record, https://github.com/naelstrof/slop
+# sox to play audio file
 
 #HOW TO USE
 
-#   run video_area
-#   select area by dragging a rectangle with the mouse
+#   make script executable, run the script
+#   select area with the mouse
 #   records the area for 10 seconds
-#   find the done mp4 and webm in your ~/Pictures/screenshots/
+#   find the done webm in your ~/Pictures/screenshots/
 
-# you can pass arguments
+# PASSING ARGUMENTS
 
-# video_area 30
-# records for 30 seconds
+# "video_area 30" -records for 30 seconds
+# "video_area 19 test" - records for 19 seconds, file will be named test.webm
 
-# video_area 19 testing
-# records for 19 seconds, files will be named testing.mp4 and testing.webm
+# if flickering, try killing your compositor before starting recording
+
+type slop ffmpeg play > /dev/null || exit
 
 delay=3
-shot=~/Pictures/screenshots/vid_$(date +%s)
+path="$HOME/Pictures/screenshots/vid_$(date +"%s")"
 
 beep() {
     play ~/media/shutter.ogg
 }
 
+# deal with passed arguments
 if [ $# -gt 1 ]; then
     dur="$1"
-    shot=~/Pictures/screenshots/$2
+    path=~/Pictures/screenshots/$2
 elif [ $# -gt 0 ]; then
     dur="$1"
 else
     dur="10"
 fi
 
-# xrectsel from https://github.com/lolilolicon/xrectsel
-# get desired rectangle's dimensions and coordinates using xrectsel
-rectange=$(xrectsel)
+# get $X $Y $W $H variables from slop
+eval $(slop)
 
-# split rectange results in to array by '+' sign
-rect_array=(${rectange//+/ })
-rect_dimensions=${rect_array[0]}
-rect_x=${rect_array[1]}
-rect_y=${rect_array[2]}
-
+# show countdown
 for (( i=$delay; i>0; --i )) ; do
     echo $i
     sleep 1
 done
 
 beep
-# use ffmpeg to make video recording of the desktop
-ffmpeg -video_size $rect_dimensions -framerate 25 -f x11grab -i :0+$rect_x,$rect_y -t $dur $shot.mp4
+# record mp4
+ffmpeg -video_size $W\x$H -framerate 25 -f x11grab -i :0+$X,$Y -t $dur $path.mp4
 beep
-# use ffmpeg to convert mp4 to webm
-ffmpeg -i $shot.mp4 -an -qmax 40 -threads 2 $shot.webm
+# convert to webm
+ffmpeg -i $path.mp4 -an -qmax 40 -threads 2 -c:v libvpx $path.webm
+# delete the original mp4 file
+rm "$path.mp4"

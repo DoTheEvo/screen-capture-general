@@ -1,22 +1,24 @@
 #!/usr/bin/env bash
 
-# byzanz is used to record gif
-# xrectsel is used to get coordinates where to record
+# DEPENDENCIES
 
-#HOW TO USE
+# byzanz to record gif, https://github.com/GNOME/byzanz
+# slop to get coordinates where to record, https://github.com/naelstrof/slop
+# sox to play audio
 
-#   run gif_area
-#   select area by dragging a rectangle with the mouse
+# HOW TO USE
+
+#   make script executable, run the script
+#   select area with the mouse
 #   records gif of the area for 10 seconds
 #   find the done gif in your ~/Pictures/screenshots/
 
-# you can pass arguments
+# PASSING ARGUMENTS
 
-# gif_area 30
-# records for 30 seconds
+# "gif_area 30" - records for 30 seconds
+# "gif_area 19 test" - records for 19 secs, file will be called test.gif
 
-# gif_area 19 testing
-# records for 19 secs, file will be called testing.gif
+type slop byzanz-record play > /dev/null || exit
 
 delay=3
 path="$HOME/Pictures/screenshots/gif_$(date +"%s")"
@@ -25,6 +27,7 @@ beep() {
     play ~/media/shutter.ogg
 }
 
+# deal with passed arguments
 if [ $# -gt 1 ]; then
     dur="=$1"
     path="$HOME/Pictures/screenshots/"$2
@@ -34,15 +37,16 @@ else
     dur="10"
 fi
 
-# xrectsel from https://github.com/lolilolicon/xrectsel
-# get desired rectangle's dimensions and coordinates using xrectsel
-arguments=$(xrectsel "--x=%x --y=%y --width=%w --height=%h") || exit -1
+# get $X $Y $W $H variables from slop
+eval $(slop)
 
+# show countdown
 for (( i=$delay; i>0; --i )) ; do
     echo $i
     sleep 1
 done
 
 beep
+# record the gif
 byzanz-record --verbose --delay=0 ${arguments} --duration=$dur $path.gif
 beep

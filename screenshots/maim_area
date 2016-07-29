@@ -9,7 +9,7 @@
 #sox to play audio file
 #imagemagick to convert pictures
 
-type maim convert play > /dev/null || exit
+type maim slop convert play > /dev/null || exit
 
 shot=$HOME/Pictures/screenshots/$(date +%s)
 
@@ -27,4 +27,3 @@ if (( pngsize < 3 * jpgsize )); then
 else
     rm "$shot.png"
 fi
-
