@@ -48,5 +48,5 @@ done
 
 beep
 # record the gif
-byzanz-record --verbose --delay=0 ${arguments} --duration=$dur $path.gif
+byzanz-record --verbose --delay=0 --x=$X --y=$Y --width=$W --height=$H --duration=$dur $path.gif
 beep
