@@ -13,7 +13,6 @@ type maim slop convert play > /dev/null || exit
 
 shot=$HOME/Pictures/screenshots/$(date +%s)
 maim -s -b 1 "$shot.png" || exit
-play $HOME/media/shutter.ogg
 convert "$shot.png" "$shot.jpg" || exit
 
 read -r pngsize _ < <(wc -c "$shot.png")
@@ -24,3 +23,5 @@ if (( pngsize < 3 * jpgsize )); then
 else
     rm "$shot.png"
 fi
+
+play $HOME/media/shutter.ogg

@@ -1,6 +1,6 @@
-# maim_area, maim_active_window
+# make_screenshot.sh
 
-Simple screenshot scripts that chose jpg or png depending on file size
+Simple screenshot scripts that choses jpg or png depending on file size
 
 #### dependencies
 * `maim` for making screenshots
@@ -9,7 +9,7 @@ Simple screenshot scripts that chose jpg or png depending on file size
 * `imagemagick` for converting png to jpg
 * `sox` for playing the shutter sound
 
-`maim_area` take screenshot of the area selected by mouse, `maim_active_window` to take screenshot of currently active window
+Clicking on an active window of an application or a dekstop will select it whole, dragging rectangle will pick that selection
 
 Pictures are saved in to `~/Pictures/screenshots` with the file name being always unique based on the epoch time(seconds since 1970) - for example `144008968.png`
 
@@ -26,7 +26,7 @@ After screenshot is done, sox plays ~/media/shutter.ogg
 ___
 
 
-# gif_area
+# make_gif.sh
 
 Records small size gif of the selected area
 
@@ -36,34 +36,32 @@ Records small size gif of the selected area
 * `sox` for playing the shutter sound
 
 The scripts uses project `byzanz` for recording the gif. It might be problem getting it, Arch users have currently working [AUR package](https://aur.archlinux.org/packages/byzanz-git/?comments=all).
-Byzanz does not have area selection by mouse on its own self, but it supports feeding it coordinates manually.
-But since no one wants to do it manually `[slop](https://github.com/naelstrof/slop)` is used.
 
-gifs are saved in to `~/Pictures/screenshots` with the file name starting with "gif_" followed by epoch time(seconds since 1970), for example `byz_1440011339.gif`
+Clicking on an active window of an application or a dekstop will select it whole, dragging rectangle will pick that selection
+
+gifs are saved in to `~/Pictures/screenshots` with the file name starting with "gif_" followed by epoch time(seconds since 1970), for example `gif_1440011339.gif`
 
 ##### run it
 
-* `gif_area` - records gif for 10 seconds
-* `gif_area 19` - records gif for 19 seconds
-* `gif_area 120 test` - recording for 2 minutes and the gif name is test.gif
+* `make_gif.sh` - records gif for 10 seconds
+* `make_gif.sh 19` - records gif for 19 seconds
+* `make_gif.sh 120 test` - recording for 2 minutes and the gif name is test.gif
 
 sox plays ~/media/shutter.ogg at the start and at the end of recording
 
 ___
 
 
-# video_area
+# make_video.sh
 
-Records mp4 and webm of the selected area
+Makes webm recording of selected area
 
 ### dependencies
 * `ffmpeg` - for recording the video and coverting to webm
 * `slop` for getting the recording area coordinates, dimensions
 * `sox` for playing the shutter sound
 
-`slop` is used to make rectangle selection with mouse and then spits out the dimmensions and coordinates of that rectangle.
-
-These coordinates are passed to ffmpeg to record video of that area with default length of 10 seconds or whatever you pass as an argument
+Clicking on an active window of an application or a dekstop will select it whole, dragging rectangle will pick that selection
 
 For performance benefit, video is recorded as mp4, then converted to webm
 
@@ -71,9 +69,9 @@ Videos are saved in to `~/Pictures/screenshots` with the file name starting with
 
 ##### run it
 
-* `video_area` - records for 10 seconds
-* `video_area 19` - records for 19 seconds
-* `video_area 120 test` - recording for 2 minutes and the name would be test,webm
+* `make_video.sh` - records for 10 seconds
+* `make_video.sh 19` - records for 19 seconds
+* `make_video.sh 120 test` - recording for 2 minutes and the name would be test,webm
 
 sox plays ~/media/shutter.ogg at the start and at the end of recording
 
