@@ -40,7 +40,7 @@ else
 fi
 
 # get $X $Y $W $H variables from slop
-eval $(slop)
+read -r X Y W H G ID < <(slop -f "%x %y %w %h %g %i")
 
 # show countdown
 for (( i=$delay; i>0; --i )) ; do
